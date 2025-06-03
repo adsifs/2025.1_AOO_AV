@@ -22,4 +22,4 @@ Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implement
 
 ## 👥 Integrantes
 - Luiz Fernando Santos Menezes.
-- Nome 2 
+- Leticia Maciel dos Reis
