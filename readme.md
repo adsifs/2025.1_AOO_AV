@@ -21,5 +21,5 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem.
 
 ## 👥 Integrantes
-- Nome 1 
+- Luiz Fernando Santos Menezes.
 - Nome 2 
