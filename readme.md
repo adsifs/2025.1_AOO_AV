@@ -18,8 +18,9 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 - [requisitos.md](./requisitos.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
-Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem.
+- Ferramentas de modelagen: PlantUML e DrawIO
+
 
 ## 👥 Integrantes
-- Luiz Fernando Santos Menezes.
+- [Luiz Fernando Santos Menezes](https://github.com/Luiz-Ferndo)
 - Nome 2 
