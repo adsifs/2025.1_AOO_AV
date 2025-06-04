@@ -1,5 +1,5 @@
 # Status do Usuário
-
+```
 @startuml
 title Diagrama de Atividade - Login de Usuário (Revisaí)
 
@@ -28,4 +28,4 @@ endif
 
 stop
 @enduml
-
+```
