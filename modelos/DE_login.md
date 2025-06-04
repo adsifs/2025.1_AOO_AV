@@ -1,29 +1,31 @@
 # Status do Usuário
 
-```plantuml
 @startuml
-hide empty description
-state "Aguardando Confirmação (AG)" as AG
-state "Ativo (A)" as A
-state "Bloqueado Temporariamente (B)" as B
-state "Cancelado (C)" as C
-state "Excluído (E)" as E
+title Diagrama de Atividade - Login de Usuário (Revisaí)
 
-[*] --> AG : Cadastro inicial
-AG --> A : Validação de email (1º acesso)\nvia [UC7]
-AG --> E : Exclusão pelo sistema
+start
 
-A --> B : 5 tentativas inválidas\nvia UC4
-B --> A : Desbloqueio (admin)\nou tempo expirado
+:Iniciar aplicativo;
+:Selecionar "Entrar";
+:Informar e-mail e senha;
 
-A --> C : Solicitação do usuário
-C --> A : Reativação
-C --> E : Exclusão definitiva\n(após 30 dias)
+if (Campos preenchidos corretamente?) then (Sim)
+  :Buscar usuário no banco de dados;
+  if (Usuário encontrado?) then (Sim)
+    :Verificar senha (comparar com hash);
+    if (Senha correta?) then (Sim)
+      :Gerar token de autenticação (JWT);
+      :Redirecionar para tela inicial;
+    else (Não)
+      :Exibir mensagem "Senha incorreta";
+    endif
+  else (Não)
+    :Exibir mensagem "Usuário não encontrado";
+  endif
+else (Não)
+  :Exibir mensagem "Preencha todos os campos";
+endif
 
-A --> E : Exclusão pelo admin
-
-E --> [*]
-
+stop
 @enduml
 
-```
