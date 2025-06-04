@@ -1,14 +1,30 @@
-# Nome do Sistema
+# REVISA I
 
 ## 💡 Descrição Geral
-Breve descrição do sistema apresentado no pitch. Indique o problema que resolve, público-alvo e principais funcionalidades.
+Aplicativo focado no gerenciamento de veículos pessoais ou de frota, oferecendo controle completo de manutenções, despesas, compartilhamento de veículos, checklist de viagem e alertas inteligentes.
 
 ## 📌 Escopo Geral
-Liste de forma objetiva os principais módulos/funções definidos no início do projeto:
 
-- [ ] Funcionalidade 1
-- [ ] Funcionalidade 2
-- [ ] ...
+- Cadastro e autenticação de usuários (incluindo login via Google)
+- Registro de veículos e compartilhamento entre usuários
+- Controle de permissões por veículo
+- Histórico de manutenções e atualizações de quilometragem
+- Emissão de relatórios em PDF
+- Alertas inteligentes para manutenções preventivas
+- Módulo de despesas gerais
+- Checklist de viagem exportável
+- Suporte a backups e funcionamento offline
+
+## 🛡️ Segurança
+
+- Criptografia de dados sensíveis
+- Autenticação via JWT
+- Controle de permissões detalhado para usuários
+
+## 🌎 Plataforma
+
+- Aplicativo Android (mínimo Android 8.0) com modo escuro e acessibilidade
+- Backend desacoplado, preparado para escalabilidade e integração
 
 ## 📁 Estrutura dos Arquivos
 - [descricao/](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
@@ -18,8 +34,8 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 - [requisitos.md](./requisitos.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
-Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem.
+- PlantUML
 
 ## 👥 Integrantes
-- Nome 1 
+- Matheus de Jesus Tavares
 - Nome 2 
