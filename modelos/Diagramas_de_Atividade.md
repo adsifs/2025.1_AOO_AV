@@ -1,4 +1,4 @@
-# 📃 Diagrama de Atividade
+# 📃 Diagramas de Atividade
 
 
 
