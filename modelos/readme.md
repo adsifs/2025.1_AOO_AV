@@ -63,8 +63,9 @@ UC4 ..> UC3 : <<include>>
 | ---------------------------------- | --------------------------- | ----------- |
 | [Realizar Login](./DA_login.md) | Permite o acesso ao sistema | -           |
 | [Cadastrar Usuário](./DA_Cadastro_Usuário.md) | Permite o cadastro de usuário | -           |
-| A2                                 | B2                          | C2          |
-| A3                                 | B3                          | C3          |
+| [Registrar Documentação]() | Registra a documentação dos cadastros | É necessario para a conclusão dos cadastros |
+| [Cadastrar Veiculo](./DA_Cadastro_Veiculo.md) | Permite o cadastro de veiculo | -           |
+| [Compartilhar Veículos](./DA_Compartilhar_Veiculo.md) | Permite o compartilhamento de veiculo | -           |
 
 ## 🔹 Diagrama de Classes
 
