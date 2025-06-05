@@ -10,7 +10,7 @@ novo motorista, adicionando os seus dados.
 
 ### Atividade - Cadastrar frota
 Nesse diagrama ilustra-se a atividade de cadastrar a frota da empresa, na qual o gestor da empresa pode acessar o sistema e
-adicionar os dados para cadastro de um novo veiculo.
+adicionar os dados para cadastro de um novo veículo.
 
 ![diag_atividade_cadfrota](https://github.com/user-attachments/assets/c8bacd2a-4801-499a-bf39-e02fdac6fe2e)
 
@@ -20,23 +20,23 @@ adicionar os dados para cadastro de uma nova carga.
 
 ![diag_atividade_cadcarga](https://github.com/user-attachments/assets/f568f886-8e6e-4f13-9c7a-1e25cf0c6ae2)
 
-### Atividade - Alerta de licenciamento proximo ao vencimento
-Nesse diagrama ilustra-se a atividade de gerar o alerta de licenciamento proximo ao vencimento, na qual o sistema, por meio de 
-verificaçoes constantes, ao verificar a proximidade do vencimento do licenciamento de um veiculo da frota, emite uma mensagem
+### Atividade - Alerta de licenciamento próximo ao vencimento
+Nesse diagrama ilustra-se a atividade de gerar o alerta de licenciamento próximo ao vencimento, na qual o sistema, por meio de 
+verificações constantes, ao verificar a proximidade do vencimento do licenciamento de um veículo da frota, emite uma mensagem
 de alerta ao gestor da empresa.
 
 ![diag_atividade_alertalicenciamento](https://github.com/user-attachments/assets/1dc30612-3514-4a79-8d15-98a5442c78b6)
 
-### Atividade - Buscar veiculo
-Nesse diagrama ilustra-se a atividade de buscar/filtrar veiculos da frota da empresa, na qual o gestor da empresa pode acessar
-o sistema, adicionar os dados do veiculo requerido na busca e ter acesso ao status desse veiculo.
+### Atividade - Buscar veículo
+Nesse diagrama ilustra-se a atividade de buscar/filtrar veículos da frota da empresa, na qual o gestor da empresa pode acessar
+o sistema, adicionar os dados do veículo requerido na busca e ter acesso ao status desse veículo.
 
 ![diag_atividade_buscarveiculo](https://github.com/user-attachments/assets/900db0df-9490-465d-a161-37bd33ff32d2)
 
-### Atividade - Calcular media de consumo de combustivel
-Nesse diagrama ilustra-se a atividade de calcular a media de consumo de combustivel de cada veiculo da frota,
-na qual o sistema,a partir de dados de abastecimento e distancia percorrida pelo veiculo, calcula a sua media
-de consumo e disponibiliza essa informaçao ao gestor da empresa.
+### Atividade - Calcular média de consumo de combustível
+Nesse diagrama ilustra-se a atividade de calcular a média de consumo de combustível de cada veiculo da frota,
+na qual o sistema, a partir de dados de abastecimento e distância percorrida pelo veículo, calcula a sua média
+de consumo e disponibiliza essa informação ao gestor da empresa.
 
 ![diag_atividade_calculacombustivel](https://github.com/user-attachments/assets/1c03d41b-1680-431a-bae6-ab9f0511bd12)
 
@@ -59,8 +59,8 @@ Nesse diagrama ilustra-se os estados que um motorista pode apresentar.
 
 ![diag_estado_motorista](https://github.com/user-attachments/assets/45c3e974-20ab-46ab-bbc5-42a115a4c538)
 
-### Estados - Veiculo
-Nesse diagrama ilustra-se os estados que um veiculo pode apresentar.
+### Estados - Veículo
+Nesse diagrama ilustra-se os estados que um veículo pode apresentar.
 
 ![diag_estado_veiculo](https://github.com/user-attachments/assets/4d41182d-e2ac-47b7-a9ee-6d544d623b8f)
 
@@ -74,8 +74,8 @@ Nesse diagrama ilustra-se os estados que uma carga pode apresentar.
 
 ![diag_estado_carga](https://github.com/user-attachments/assets/35a1c871-6199-400b-b415-09ca54c2c0e3)
 
-### Estados - Manutençao
-Nesse diagrama ilustra-se os estados que a manutençao de um veiculo pode apresentar.
+### Estados - Manutenção
+Nesse diagrama ilustra-se os estados que a manutenção de um veiculo pode apresentar.
 
 ![diag_estado_manutencao](https://github.com/user-attachments/assets/1bc6dffb-a033-45fe-af43-0ad191f1ab6b)
 
