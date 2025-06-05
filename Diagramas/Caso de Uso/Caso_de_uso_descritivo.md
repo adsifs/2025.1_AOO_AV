@@ -66,14 +66,15 @@
 
 ## Gerar Relatórios
 
-**Ator Principal**: Empresa
+**Ator Principal**: Empresa e Motorista
 **Descrição**: Gera um relatório completo contendo motorista, veículo, carga, horário de saída e chegada, destino e rota
 
 **Fluxo Principal**:
-1. A empresa acessa o sistema
-2. A empresa realiza o login com suas credenciais
-3. Seleciona a opção de relatório
-4. Escolhe a opção de gerar relatório
+1. O usuário acessa o sistema
+2. O usuário realiza o login com suas credenciais
+3. O usuário seleciona a opção de relatório
+4. O usuário escolhe a opção de gerar relatório
+5. O sistema ira retornar um relatorio completo
 
 
 ## Busca
@@ -87,6 +88,10 @@
 3. Seleciona a opção de busca
 4. Filtra qual item quer buscar
 5. O sistema retorna a busca baseada no filtro
+
+**Fluxo Alternativo**:
+1. A busca por veiculo ira retornar uma lista com os veiculos que estao disponiveis e ocupados
+2. No resultado da busca de veiculos ocupados, sera retornado os motoristas e as cargas vinculadas
 
 
 ## Envio de Mensagens
