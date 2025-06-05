@@ -2,7 +2,7 @@
 
 ## Visão Geral do Sistema
 
-> Adicionar o diagrama de caso de uso que mostra a visão geral do sistema
+> Diagrama de caso de uso
 
 ```puml
 @startuml
@@ -14,8 +14,8 @@ skinparam usecase {
 }
 
 actor Usuario
-actor Proprietario
 actor Motorista
+actor Proprietario
 actor Robo
 
 rectangle "Sistema REVISAÍ" {
@@ -39,12 +39,13 @@ rectangle "Sistema REVISAÍ" {
 
 Usuario --> UC1
 Usuario --> UC2
-Usuario --> UC5
+Usuario --> UC4
 Usuario --> UC6
 Usuario --> UC7
 Usuario --> UC8
 Usuario --> UC9
-Proprietario --> UC4
+Usuario --> UC10
+Proprietario --> UC5
 
 Motorista --|> Usuario
 Proprietario --|> Usuario
@@ -54,14 +55,9 @@ UC2 ..> UC3 : <<include>>
 UC4 ..> UC3 : <<include>>
 
 @enduml
-
-
 ```
 
 ## Casos de Uso
-
->  Para cada item, apresentar: Nome, Atores, Fluxo principal, Fluxo alternativo, Pré-condições e Pós-condições, etc. 
-
 
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
