@@ -110,7 +110,7 @@ Usuário --> UC1
 | Perfil            | Descrição                                                 | Acesso ao sistema     |
 | ----------------- | --------------------------------------------------------- | --------------------- |
 | **Proprietário**  | Usuário com acesso a todas as funcionalidades.            | Todas as funcionalidades |
-| **Motorista**     | Usuário com acesso limitado.                              | não tem acesso a função Compartilhar Veículo |
+| **Motorista**     | Usuário com acesso limitado.                              | Não tem acesso a função Compartilhar Veículo |
 
 ---
 
