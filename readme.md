@@ -21,7 +21,7 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 
 
 ## 🛠️ Tecnologias e Ferramentas
-- Ferramentas de modelagen: PlantUML e DrawIO
+- Ferramentas de modelagem: PlantUML e DrawIO
 
 
 ## 👥 Integrantes
