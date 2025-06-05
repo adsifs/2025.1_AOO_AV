@@ -6,12 +6,12 @@ O SysLOG é uma solução completa de gerenciamento logístico desenvolvida para
 ## 📌 Escopo Geral
 Liste de forma objetiva os principais módulos/funções definidos no início do projeto:
 
-- Gestao de Acesso
-- Gestao de recursos
+- Gestão de Acesso
+- Gestão de recursos
 - Monitoramento e seguranca
-- Gestao Documental
-- Analise e Relatorios
-- Comunicacao
+- Gestão Documental
+- Análise e Relatórios
+- Comunicação
 
 ## 📁 Estrutura dos Arquivos
 - [descricao/](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
@@ -21,7 +21,7 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 
 
 ## 🛠️ Tecnologias e Ferramentas
-- Ferramentas de modelagen: PlantUML e DrawIO
+- Ferramentas de modelagem: PlantUML e DrawIO
 
 
 ## 👥 Integrantes

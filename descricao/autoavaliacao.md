@@ -2,12 +2,13 @@
 
 ## 🗂️ Organização do Grupo
 **1. Como o grupo organizou as atividades? Houve divisão de tarefas?**
+
 Os passos iniciais do projeto (escolha do projeto, definição de requisitos, regras de negócio) foram feitos em total colaboração dos integrantes. Em seguida, cada integrante desenvolveu parte dos diagramas.
 
 ## Desempenho Individual 📈
 **2. O que você considera que mais contribuiu no projeto?**
 
-- Letícia Maciel: As minhas maiores contribuições foram a participação na definição de requisitos, regras de negócio e casos de uso, criação de alguns diagramas de atividade e todos os diagramas de estado.
+- Letícia Maciel: As minhas maiores contribuições foram a participação na definição de requisitos, regras de negócio e casos de uso, criação de alguns diagramas de atividade, os diagramas de estado e organização do projeto no Github.
 - Luiz Fernando: Minhas contribuições foram no levantamento de requisitos, regras de negócio, diagrama de caso de uso, casos de uso descritivos e organização do projeto no Github.
 - Nome 3: 
 - Nome 4: 
@@ -50,4 +51,5 @@ _Justifique:_
 
 ## ✍️ Sugestões para o professor
 **7. Alguma sugestão para melhorar este tipo de atividade ou avaliação no futuro?**  
-...
+
+A proposta da atividade utilizando o Github é muito boa, uma vez que proporciona o primeiro contato dos participantes ou pelo menos maior imersão com a ferramenta. Então, manter o formato para futuras atividades é uma boa opção, desde que tenha sempre direcionamento na utilização da ferramenta.
