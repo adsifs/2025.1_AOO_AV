@@ -194,4 +194,207 @@ stop
 @enduml
 ```
 
+### 4. Registro de Manutenções
+- Registro de tipo de serviço, data, quilometragem, oficina, valor e observações.  
+- Upload de nota fiscal com leitura automática (OCR).  
+- Edição e exclusão com rastreamento do autor. 
+
+
+
+```puml
+ @startuml
+start
+
+:Usuário acessa "Registrar Manutenção";
+
+:Sistema exibe campos:
+- Tipo de serviço
+- Data
+- Quilometragem
+- Oficina
+- Valor
+- Observações;
+
+:Usuário preenche dados;
+
+:Usuário faz upload da nota fiscal;
+
+:Sistema processa nota com OCR (leitura automática);
+
+:Sistema armazena os dados e arquivo da nota;
+
+:Usuário pode editar ou excluir registro;
+
+:Sistema rastreia e armazena autor das alterações;
+
+stop
+@enduml
+```
+
+### 5. Alertas Inteligentes
+- Geração de alertas por tempo e quilometragem.  
+- Notificações para todos os motoristas vinculados.  
+- Sugestões automáticas com base no histórico de manutenções.  
+- Cálculo dinâmico de alertas.
+
+
+
+´´´puml
+@startuml
+start
+
+:Sistema calcula tempo e quilometragem desde última manutenção;
+
+if (Critérios para alerta atingidos?) then (Sim)
+  :Sistema gera alerta;
+
+  :Sistema envia notificação a todos os motoristas vinculados;
+
+  :Sistema sugere manutenção com base no histórico;
+
+else (Não)
+  :Nenhuma ação necessária;
+endif
+
+:Sistema recalcula alertas dinamicamente;
+
+stop
+@enduml
+´´´
+
+### 6. Histórico e Relatórios
+- Histórico completo por veículo.  
+- Filtros por motorista, serviço, oficina e datas.  
+- Relatórios promocionais e exportação em PDF.  
+- Geração de relatório de entrega de veículo.
+
+
+
+´´´puml
+@startuml
+start
+
+:Usuário acessa "Histórico e Relatórios";
+
+:Sistema exibe filtros:
+- Motorista
+- Serviço
+- Oficina
+- Datas;
+
+:Usuário aplica filtros;
+
+:Sistema exibe histórico completo do veículo;
+
+:Usuário solicita geração de relatório;
+
+if (Tipo de relatório: promocional ou entrega?) then (Entrega)
+  :Sistema gera relatório de entrega de veículo em PDF;
+else (Promocional)
+  :Sistema gera relatório promocional em PDF;
+endif
+
+:Usuário faz download do PDF;
+
+stop
+@enduml
+´´´
+
+### 7. Atualização de Quilometragem
+- Atualização manual da quilometragem.  
+- Histórico das atualizações por usuário.  
+
+
+
+´´´puml
+@startuml
+start
+
+:Usuário acessa "Atualizar Quilometragem";
+
+:Usuário informa nova quilometragem;
+
+:Sistema valida se quilometragem é maior que a anterior;
+
+if (Válida?) then (Sim)
+  :Sistema atualiza a quilometragem do veículo;
+
+  :Sistema registra a atualização com identificação do usuário;
+
+  :Sistema armazena no Histórico de Atualizações;
+
+else (Não)
+  :Sistema exibe mensagem de erro: "Quilometragem inválida";
+endif
+
+stop
+@enduml
+´´´
+
+### 8. Módulo de Despesas Gerais
+- Registro de despesas como IPVA, seguro, multas, lavagens, etc.  
+- Categorização das despesas.  
+- Relatórios por mês, categoria e veículo.  
+
+
+
+´´´puml
+@startuml
+start
+
+:Usuário acessa "Registrar Despesa";
+
+:Sistema exibe campos:
+- Tipo de despesa (IPVA, seguro, multa, lavagem etc.)
+- Valor
+- Data
+- Observações;
+
+:Usuário preenche os dados;
+
+:Sistema categoriza a despesa;
+
+:Sistema armazena a despesa no registro do veículo;
+
+:Usuário solicita relatórios;
+
+:Sistema exibe relatórios por:
+- Mês
+- Categoria
+- Veículo;
+
+stop
+@enduml
+´´´
+
+### 9. Checklist de Viagem
+- Lista sugerida com base no tipo de viagem e revisões.  
+- Exportação em PDF.
+
+
+
+´´´puml
+@startuml
+start
+
+:Usuário acessa "Checklist de Viagem";
+
+:Sistema solicita tipo de viagem;
+
+:Usuário informa o tipo (curta, longa, carga, passeio etc.);
+
+:Sistema sugere lista de itens com base no tipo e nas revisões necessárias;
+
+:Usuário revisa e confirma checklist;
+
+:Usuário solicita exportação;
+
+:Sistema gera checklist em PDF;
+
+:Usuário faz download do PDF;
+
+stop
+@enduml
+´´´
+
 
