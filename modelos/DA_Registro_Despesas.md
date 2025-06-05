@@ -1,3 +1,4 @@
+```puml
 @startuml
 start
 title Diagrama de Atividade - Registrar Despesas Gerais (Revisaí)
@@ -39,3 +40,4 @@ note right
 endif
 stop
 @enduml
+```
