@@ -61,11 +61,15 @@ UC4 ..> UC3 : <<include>>
 
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
-| [Realizar Login](./DA_login.md) | Permite o acesso ao sistema | -           |
-| [Cadastrar Usuário](./DA_Cadastro_Usuário.md) | Permite o cadastro de usuário | -           |
+| [Realizar Login](./UC_login.md) | Permite o acesso ao sistema | -           |
+| [Cadastrar Usuário](./UC_Cadastro_Usuário.md) | Permite o cadastro de usuário | -           |
 | [Registrar Documentação]() | Registra a documentação dos cadastros | É necessario para a conclusão dos cadastros |
-| [Cadastrar Veiculo](./DA_Cadastro_Veiculo.md) | Permite o cadastro de veiculo | -           |
-| [Compartilhar Veículos](./DA_Compartilhar_Veiculo.md) | Permite o compartilhamento de veiculo | -           |
+| [Cadastrar Veiculo](./UC_Cadastro_Veiculo.md) | Permite o cadastro de veiculo | -           |
+| [Compartilhar Veículos](./UC_Compartilhar_Veiculo.md) | Permite o compartilhamento de veiculo | -           |
+| [Registrar Manutenções](./UC_Manutenção.md) | Permite o registro de manutenção do veiculo | -           |
+| [Emitir Históricos e Relatórios](./UC_Relatório.md) | Permite a emição de relatórios e o histórico do veiculo | -           |
+| [Emitir Históricos e Relatórios](./UC_Relatório.md) | Permite a emição de relatórios e o histórico do veiculo | -           |
+
 
 ## 🔹 Diagrama de Classes
 
