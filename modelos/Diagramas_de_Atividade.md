@@ -1,5 +1,5 @@
+# 📃 Diagrama de Atividade
 
-### Diagrama de Atividade
 
 
 
@@ -74,5 +74,20 @@ else (Não)
 endif
 
 @enduml
+
+### 2. Cadastro de Veículos
+- Cadastro de múltiplos veículos por usuário.  
+- Campos obrigatórios: marca, modelo, ano, combustível, quilometragem atual, placa.  
+- Validação de placa (formatos Mercosul e antigo).  
+- Prevenção de placas duplicadas.  
+- Indicação de proprietário e motoristas autorizados.  
+- Edição e exclusão com controle de permissões.  
+
+### 3. Compartilhamento de Veículos
+- Compartilhamento via e-mail ou código de convite.  
+- Controle de permissões (visualização ou edição).  
+- Remoção de acesso a qualquer momento.  
+- Notificações de alterações feitas por convidados.  
+- Transferência de propriedade do veículo.  
 
 ```
