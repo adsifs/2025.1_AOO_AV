@@ -1,4 +1,4 @@
-# Status do Usuário
+# Login de Usuário
 ```puml
 @startuml
 title Diagrama de Atividade - Login de Usuário (Revisaí)
