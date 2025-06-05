@@ -23,4 +23,4 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 
 ## 👥 Integrantes
 - [Luiz Fernando Santos Menezes](https://github.com/Luiz-Ferndo)
-- Nome 2 
+- Leticia Maciel dos Reis
