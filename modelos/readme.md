@@ -19,22 +19,26 @@ actor Motorista
 actor Robo
 
 rectangle "Sistema REVISAÍ" {
+
+ rectangle "Sistema de autenticação" {
+    usecase "login" as UC1
+}
   
-    usecase "Cadastrar Usuário" as UC1
-    usecase "Registrar Documentação" as UC2
-    usecase "Cadastrar Veículos" as UC3
-    usecase "Compartilhar Veículos" as UC4
-    usecase "Registrar Manutenções" as UC5
-    usecase "Emitir Históricos e Relatórios" as UC6
-    usecase "Atualizar Quilometragem" as UC7
-    usecase "Registrar Despesas Gerais" as UC8
-    usecase "Fazer Checklist de Viagem" as UC9
+    usecase "Cadastrar Usuário" as UC2
+    usecase "Registrar Documentação" as UC3
+    usecase "Cadastrar Veículos" as UC4
+    usecase "Compartilhar Veículos" as UC5
+    usecase "Registrar Manutenções" as UC6
+    usecase "Emitir Históricos e Relatórios" as UC7
+    usecase "Atualizar Quilometragem" as UC8
+    usecase "Registrar Despesas Gerais" as UC9
+    usecase "Fazer Checklist de Viagem" as UC10
   
-  usecase "Alertar" as UC10
+  usecase "Alertar" as UC11
 }
 
 Usuario --> UC1
-Usuario --> UC3
+Usuario --> UC2
 Usuario --> UC5
 Usuario --> UC6
 Usuario --> UC7
@@ -44,10 +48,10 @@ Proprietario --> UC4
 
 Motorista --|> Usuario
 Proprietario --|> Usuario
-Robo --> UC10
+Robo --> UC11
 
-UC1 ..> UC2 : <<include>>
-UC3 ..> UC2 : <<include>>
+UC2 ..> UC3 : <<include>>
+UC4 ..> UC3 : <<include>>
 
 @enduml
 
@@ -61,7 +65,7 @@ UC3 ..> UC2 : <<include>>
 
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
-| [Realizar Login](./UC_01_login.md) | Permite o acesso ao sistema | -           |
+| [Realizar Login](./DA_login.md) | Permite o acesso ao sistema | -           |
 | [Cadastrar Usuário](./DA_Cadastro_Usuário.md) | Permite o cadastro de usuário | -           |
 | A2                                 | B2                          | C2          |
 | A3                                 | B3                          | C3          |
