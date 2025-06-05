@@ -239,7 +239,7 @@ stop
 
 
 
-´´´puml
+```puml
 @startuml
 start
 
@@ -260,7 +260,7 @@ endif
 
 stop
 @enduml
-´´´
+```
 
 ### 6. Histórico e Relatórios
 - Histórico completo por veículo.  
@@ -270,7 +270,7 @@ stop
 
 
 
-´´´puml
+```puml
 @startuml
 start
 
@@ -298,7 +298,7 @@ endif
 
 stop
 @enduml
-´´´
+```
 
 ### 7. Atualização de Quilometragem
 - Atualização manual da quilometragem.  
@@ -306,7 +306,7 @@ stop
 
 
 
-´´´puml
+```puml
 @startuml
 start
 
@@ -329,7 +329,7 @@ endif
 
 stop
 @enduml
-´´´
+```
 
 ### 8. Módulo de Despesas Gerais
 - Registro de despesas como IPVA, seguro, multas, lavagens, etc.  
@@ -338,7 +338,7 @@ stop
 
 
 
-´´´puml
+```puml
 @startuml
 start
 
@@ -365,7 +365,7 @@ start
 
 stop
 @enduml
-´´´
+```
 
 ### 9. Checklist de Viagem
 - Lista sugerida com base no tipo de viagem e revisões.  
@@ -373,7 +373,7 @@ stop
 
 
 
-´´´puml
+```puml
 @startuml
 start
 
@@ -395,6 +395,6 @@ start
 
 stop
 @enduml
-´´´
+```
 
 
