@@ -16,7 +16,7 @@ Todos os diagramas foi dividido e feitos por cada membro do grupo, dividindo as 
 > Aqui cada usuário deverá realizar sua descrição e realizar o envio com o seu nome para ficar registrado no github
 
 - Matheus de Jesus Tavares: Criei o repositório do projeto e convidei os demais integrantes para colaborar. Também contribui na produção dos diagramas, organização do repositório e participei com ideias e sugestões durante o trabalho em grupo.
-- Nome 2: 
+- Matheus Yuri dos Santos Bomfim: Realizei criação de diagramas, opinei junto aos outros sobre a melhor formar de apresentar os diagramas fazendo com que o nosso trabalho tenha mais coerência ao ser visualizado. 
 - Nome 3: 
 - Nome 4: 
 
@@ -39,11 +39,13 @@ _Justifique brevemente sua resposta_: com a demanda de outras materias e ainda c
 ## 📚 Aprendizados
 **4. Qual o principal aprendizado técnico que você tirou deste trabalho?**  
 - Matheus de Jesus Tavares: aprender a usar o github, como documentar e criar os diagramas. achei muito legal.
+- Matheus Yuri dos Santos Bomfim: Sem duvida, criar diagramas e principalmente usar o github.
 
 ---
 
 **5. E pessoal (relacionado a trabalho em grupo, organização, etc)?**  
 - Matheus de Jesus Tavares: meu grupo e muito bom e tranquilo, pessoas maduras e organizadas que ajudou muito no processo pois compartilhamos muitas informações e podemos aprender muito um com o outro.
+- Matheus Yuri dos Santos Bomfim: Grupo bom de trabalhar, sem muito à falar sobre os mesmos.
 
 ---
 
@@ -63,3 +65,4 @@ _Justifique:_ conseguimos fazer todos os diagramas e estruturar ele bem, nosso p
 ## ✍️ Sugestões para o professor
 **7. Alguma sugestão para melhorar este tipo de atividade ou avaliação no futuro?**  
 - Matheus de Jesus Tavares: gostei muito da forma que o professor levou a diciplina em si, e dessa forma de atividade foi excelente pois nos ajudou a entender essa documentação e ainda aprender ferramentas novas como o github
+- Matheus Yuri dos Santos Bomfim: No geral gostei, mas seria bom uma horinha para explicar o funcionamento do github.
