@@ -38,4 +38,5 @@ Aplicativo focado no gerenciamento de veículos pessoais ou de frota, oferecendo
 
 ## 👥 Integrantes
 - Matheus de Jesus Tavares
+- Matheus Yuri dos Santos Bomfim
 - Nome 2 
