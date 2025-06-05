@@ -2,63 +2,76 @@
 
 ## Visão Geral do Sistema
 
-> Adicionar o diagrama de caso de uso que mostra a visão geral do sistema
+> Diagrama de caso de uso
 
 ```puml
 @startuml
-
 left to right direction
-
-
-actor "Usuário" as Usuario
-actor "Administrador" as Adm
-actor "Usuário Comum" as Comum
-actor Sistema as Sistema
-
-
-Adm --|> Usuario
-Comum --|> Usuario
-
-
-rectangle "Sistema de Autenticação" {
-  usecase "Realizar login" as UC1
+skinparam packageStyle rectangle
+skinparam usecase {
+  BackgroundColor LightSkyBlue
+  BorderColor DarkSlateGray
 }
 
-rectangle "Configurações e Otimizações" {
-  usecase "Realizar backup diário" as UCS1
+actor Usuario
+actor Motorista
+actor Proprietario
+actor Robo
+
+rectangle "Sistema REVISAÍ" {
+
+ rectangle "Sistema de autenticação" {
+    usecase "login" as UC1
 }
-usecase "Funçao 1" as UCEx1
-usecase "Funçao 2" as UCEx2
-usecase "Funçao 3" as UCEx3
-usecase "Funçao 4" as UCEx4
-usecase "Funçao 5" as UCEx5
+  
+    usecase "Cadastrar Usuário" as UC2
+    usecase "Registrar Documentação" as UC3
+    usecase "Cadastrar Veículos" as UC4
+    usecase "Compartilhar Veículos" as UC5
+    usecase "Registrar Manutenções" as UC6
+    usecase "Emitir Históricos e Relatórios" as UC7
+    usecase "Atualizar Quilometragem" as UC8
+    usecase "Registrar Despesas Gerais" as UC9
+    usecase "Fazer Checklist de Viagem" as UC10
+  
+  usecase "Alertar" as UC11
+}
 
 Usuario --> UC1
-Usuario --> UCEx1
-Usuario --> UCEx2
-Usuario --> UCEx4
-Usuario --> UCEx5
-Sistema -up-> UCS1
-Sistema -up-> UCEx3
-Sistema -up-> UCEx2
-Sistema -up-> UCEx5
+Usuario --> UC2
+Usuario --> UC4
+Usuario --> UC6
+Usuario --> UC7
+Usuario --> UC8
+Usuario --> UC9
+Usuario --> UC10
+Proprietario --> UC5
 
-Adm -> UCS1
-Adm -> UCEx5
+Motorista --|> Usuario
+Proprietario --|> Usuario
+Robo --> UC11
+
+UC2 ..> UC3 : <<include>>
+UC4 ..> UC3 : <<include>>
+
 @enduml
-
 ```
 
 ## Casos de Uso
 
->  Para cada item, apresentar: Nome, Atores, Fluxo principal, Fluxo alternativo, Pré-condições e Pós-condições, etc. 
-
-
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
-| [Realizar Login](./UC_01_login.md) | Permite o acesso ao sistema | -           |
-| A2                                 | B2                          | C2          |
-| A3                                 | B3                          | C3          |
+| [Realizar Login](./UC_login.md) | Permite o acesso ao sistema | -           |
+| [Cadastrar Usuário](./UC_Cadastro_Usuário.md) | Permite o cadastro de usuário | -           |
+| [Cadastrar Veiculo](./UC_Cadastro_Veiculo.md) | Permite o cadastro de veiculo | -           |
+| [Registrar Documentação]() | Registra a documentação dos cadastros | É necessario para a conclusão dos cadastros |
+| [Compartilhar Veículos](./UC_Compartilhar_Veiculo.md) | Permite o compartilhamento de veiculo | -           |
+| [Registrar Manutenções](./UC_Manutenção.md) | Permite o registro de manutenção do veiculo | -           |
+| [Emitir Históricos e Relatórios](./UC_Relatório.md) | Permite a emição de relatórios e o histórico do veiculo | -           |
+| [Atualizar Quilometragem](./UC_Quilometragem.md) | Permite a atualização manual da quilometragem do veiculo | -           |
+| [Registrar Despesas Gerais](./UC_Registro_Despesas.md) | Permite o registro e emição das despesas do veiculo | -           |
+| [Fazer Checklist de Viagem](./UC_Checklist.md) | Permite a criação de uma checklist com base na distância da viagem | -           |
+
 
 ## 🔹 Diagrama de Classes
 
