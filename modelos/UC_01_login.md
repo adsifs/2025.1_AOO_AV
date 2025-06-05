@@ -144,7 +144,7 @@ UC2 --> UC4 : [5 tentativas inválidas]
 # 2. Diagrama de Atividades
 
 ## 2.1. Cadastrar Usuário
-
+´´´plantuml
 @startuml
 title Diagrama de Atividade - Cadastro de Usuário (Revisaí)
 start
@@ -161,7 +161,7 @@ else (Não)
 endif
 stop
 @enduml
-
+´´´´
 ## 2.2. Cadastrar Veículo
 
 @startuml
