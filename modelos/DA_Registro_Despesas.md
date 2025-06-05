@@ -1,3 +1,5 @@
+# Registrar Despesas Gerais
+
 ```puml
 @startuml
 start
