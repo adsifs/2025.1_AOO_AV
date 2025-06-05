@@ -143,47 +143,43 @@ UC2 --> UC4 : [5 tentativas inválidas]
 
 # 2. Diagrama de Atividades
 
-```plantuml
+## 2.1. Cadastrar Usuário
+
 @startuml
+title Diagrama de Atividade - Cadastro de Usuário (Revisaí)
 start
-
-:Exibir tela de login;
-:Usuário informa usuário e senha;
-
-if (Campos preenchidos?) then (Sim)
-  :Validar credenciais;
-
-  if (Credenciais válidas?) then (Sim)
-    :Identificar perfil do usuário;
-
-    if (Primeiro acesso?) then (Sim)
-      :Solicitar troca de senha;
-      :Usuário troca a senha;
-    endif
-
-    if (Perfil == Administrador) then (Sim)
-      :Redirecionar para painel administrativo;
-    else
-      :Redirecionar para painel do usuário;
-    endif
-
-  else (Não)
-    :Exibir mensagem "Usuário ou senha incorretos";
-    :Incrementar contador de tentativas;
-
-    if (Tentativas >= 5?) then (Sim)
-      :Bloquear conta por 15 minutos;
-    endif
-
-    :Retornar para tela de login;
-  endif
-
+:Iniciar aplicativo;
+:Selecionar "Criar Conta";
+:Ir para atividade "Registro de Documentação";
+if (Documentação registrada com sucesso?) then (Sim)
+ :Aplicar hash na senha;
+ :Salvar dados no banco de dados;
+ :Exibir mensagem de sucesso;
+ :Redirecionar para tela inicial ou login automático;
 else (Não)
-  :Exibir mensagem "Preencha todos os campos";
-  :Retornar para tela de login;
+ :Exibir mensagem de erro ao usuário;
 endif
-
 stop
 @enduml
-```
+
+## 2.2. Cadastrar Veículo
+
+@startuml
+title Diagrama de Atividade - Cadastro de Veículo (Revisaí)
+start
+:Acessar área de veículos;
+:Selecionar "Adicionar Veículo";
+:Ir para atividade "Registro de Documentação";
+if (Documentação registrada com sucesso?) then (Sim)
+ :Indicar proprietário;
+ :Adicionar motoristas autorizados (opcional);
+ :Salvar veículo no sistema;
+ :Exibir mensagem de sucesso;
+else (Não)
+ :Exibir erro: "Erro no registro de documentação";
+endif
+stop
+@enduml
+
+
 
