@@ -1,3 +1,4 @@
+```puml
 @startuml
 start
 title Diagrama de Atividade - Manutenções do veículo (Revisaí)
@@ -35,3 +36,4 @@ partition "Fluxo Alternativo FA02 - Edição/Exclusão" {
 
 stop
 @enduml
+```
