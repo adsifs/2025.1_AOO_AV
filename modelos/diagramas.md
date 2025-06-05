@@ -53,5 +53,37 @@ correspondente, escrever e enviar uma mensagem de texto para o gestor da empresa
 ![diag_atividade_envia_msgempresa](https://github.com/user-attachments/assets/b81e0ecf-0461-4b2f-9947-5400680cb3f0)
 
 
-## 🔹 Diagrama de Estados
+## 🔹 Diagramas de Estados
+### Estados - Motorista
+Nesse diagrama ilustra-se os estados que um motorista pode apresentar.
+
+![diag_estado_motorista](https://github.com/user-attachments/assets/45c3e974-20ab-46ab-bbc5-42a115a4c538)
+
+### Estados - Veiculo
+Nesse diagrama ilustra-se os estados que um veiculo pode apresentar.
+
+![diag_estado_veiculo](https://github.com/user-attachments/assets/4d41182d-e2ac-47b7-a9ee-6d544d623b8f)
+
+### Estados - Viagem
+Nesse diagrama ilustra-se os estados que uma viagem pode apresentar.
+
+![diag_estado_viagem](https://github.com/user-attachments/assets/04e6f4c8-0204-4552-bed9-830f4a0ca5ac)
+
+### Estados - Carga
+Nesse diagrama ilustra-se os estados que uma carga pode apresentar.
+
+![diag_estado_carga](https://github.com/user-attachments/assets/35a1c871-6199-400b-b415-09ca54c2c0e3)
+
+### Estados - Manutençao
+Nesse diagrama ilustra-se os estados que a manutençao de um veiculo pode apresentar.
+
+![diag_estado_manutencao](https://github.com/user-attachments/assets/1bc6dffb-a033-45fe-af43-0ad191f1ab6b)
+
+### Estados - Mensagem
+Nesse diagrama ilustra-se os estados que uma mensagem pode apresentar.
+
+![diag_estados_mensagem](https://github.com/user-attachments/assets/5a197d41-1917-4163-90a1-89242836e90d)
+
+
+
 
