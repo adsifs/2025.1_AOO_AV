@@ -1,5 +1,5 @@
 # Status do Usuário
-```
+```puml
 @startuml
 title Diagrama de Atividade - Login de Usuário (Revisaí)
 
