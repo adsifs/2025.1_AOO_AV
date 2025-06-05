@@ -1,21 +1,13 @@
 # 🧠 Autoavaliação do Projeto - Avaliação Prática de AOO
 
-> - As **seções gerais** podem ser respondidas por qualquer membro do grupo.
-> - A seção **"Desempenho Individual"** deve ser preenchida por **cada aluno separadamente** e o **_commit_ com o texto deve ser feito pelo próprio aluno**.
-> - Trabalhos em que essa seção for preenchida por outra pessoa ou não houver histórico de _commit_ individual poderão ser **desconsiderados** nessa parte da avaliação.
-
 ## 🗂️ Organização do Grupo
 **1. Como o grupo organizou as atividades? Houve divisão de tarefas?**
-
-_Exemplo de resposta: Cada membro ficou responsável por um tipo de diagrama, com revisões cruzadas ao final._
-
----
+Os passos iniciais do projeto (escolha do projeto, definiçao de requisitos, regras de negocio) foram feitos em total colaboraçao dos integrantes. Em seguida, cada integrante desenvolveu parte dos diagramas.
 
 ## Desempenho Individual 📈
 **2. O que você considera que mais contribuiu no projeto?**
-> Aqui cada usuário deverá realizar sua descrição e realizar o envio com o seu nome para ficar registrado no github
 
-- Nome 1: 
+- Leticia Maciel: As minhas maiores contribuiçoes foram a participaçao na definiçao de requisitos, regras de negocio e casos de uso, criaçao de alguns diagramas de atividade e todos os diagramas de estado.
 - Nome 2: 
 - Nome 3: 
 - Nome 4: 
@@ -29,13 +21,10 @@ _Exemplo de resposta: Cada membro ficou responsável por um tipo de diagrama, co
 
 - [ ] Excelente (entregamos com folga e dentro do cronograma)
 - [ ] Bom (alguns atrasos, mas nada crítico)
-- [ ] Razoável (houve correria no final)
+- [x] Razoável (houve correria no final)
 - [ ] Ruim (atrasamos muito e isso prejudicou a entrega)
 
-_Justifique brevemente sua resposta:_  
-...
-
----
+Nossa equipe acabou demorando a evoluir na definiçao dos casos de uso e, consequentemente, no desenvolvimento desse primeiro diagrama, o que ocasionou acumulos e atrasos em cascata com as demais tarefas subsequentes. Alem disso, a inexperiencia com as ferramentas utilizadas limitou os nossos avanços inicialmente.
 
 ## 📚 Aprendizados
 **4. Qual o principal aprendizado técnico que você tirou deste trabalho?**  
