@@ -62,6 +62,7 @@ UC3 ..> UC2 : <<include>>
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
 | [Realizar Login](./UC_01_login.md) | Permite o acesso ao sistema | -           |
+| [Cadastrar Usuário](./DA_Cadastro_Usuário.md) | Permite o cadastro de usuário | -           |
 | A2                                 | B2                          | C2          |
 | A3                                 | B3                          | C3          |
 
