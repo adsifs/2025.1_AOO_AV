@@ -1,3 +1,6 @@
+# Emitir Relatório
+
+```puml
 @startuml
 start
 title Diagrama de Atividade - Emitir Relatório (Revisaí)
@@ -25,3 +28,4 @@ endif
 
 stop
 @enduml
+```
