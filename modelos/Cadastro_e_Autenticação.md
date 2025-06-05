@@ -1,4 +1,8 @@
 
+### Diagrama de Atividade
+
+
+
 ### 1. Cadastro e Autenticação
 - Cadastro com nome completo, e-mail e senha.  
 - Login via conta Google.  
@@ -7,7 +11,7 @@
 - Edição e exclusão de conta.  
 
 
-### Diagrama de Atividade
+
 ```puml
 @startuml
 start
