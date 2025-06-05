@@ -6,46 +6,51 @@
 
 ```puml
 @startuml
-
 left to right direction
-
-
-actor "Usuário" as Usuario
-actor "Administrador" as Adm
-actor "Usuário Comum" as Comum
-actor Sistema as Sistema
-
-
-Adm --|> Usuario
-Comum --|> Usuario
-
-
-rectangle "Sistema de Autenticação" {
-  usecase "Realizar login" as UC1
+skinparam packageStyle rectangle
+skinparam usecase {
+  BackgroundColor LightSkyBlue
+  BorderColor DarkSlateGray
 }
 
-rectangle "Configurações e Otimizações" {
-  usecase "Realizar backup diário" as UCS1
+actor Usuario
+actor Proprietario
+actor Motorista
+actor Robo
+
+rectangle "Sistema REVISAÍ" {
+  
+    usecase "Cadastrar Usuário" as UC1
+    usecase "Registrar Documentação" as UC2
+    usecase "Cadastrar Veículos" as UC3
+    usecase "Compartilhar Veículos" as UC4
+    usecase "Registrar Manutenções" as UC5
+    usecase "Emitir Históricos e Relatórios" as UC6
+    usecase "Atualizar Quilometragem" as UC7
+    usecase "Registrar Despesas Gerais" as UC8
+    usecase "Fazer Checklist de Viagem" as UC9
+  
+  usecase "Alertar" as UC10
 }
-usecase "Funçao 1" as UCEx1
-usecase "Funçao 2" as UCEx2
-usecase "Funçao 3" as UCEx3
-usecase "Funçao 4" as UCEx4
-usecase "Funçao 5" as UCEx5
 
 Usuario --> UC1
-Usuario --> UCEx1
-Usuario --> UCEx2
-Usuario --> UCEx4
-Usuario --> UCEx5
-Sistema -up-> UCS1
-Sistema -up-> UCEx3
-Sistema -up-> UCEx2
-Sistema -up-> UCEx5
+Usuario --> UC3
+Usuario --> UC5
+Usuario --> UC6
+Usuario --> UC7
+Usuario --> UC8
+Usuario --> UC9
+Proprietario --> UC4
 
-Adm -> UCS1
-Adm -> UCEx5
+Motorista --|> Usuario
+Proprietario --|> Usuario
+Robo --> UC10
+
+UC1 ..> UC2 : <<include>>
+UC3 ..> UC2 : <<include>>
+
 @enduml
+
 
 ```
 
