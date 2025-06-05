@@ -74,6 +74,7 @@ else (Não)
 endif
 
 @enduml
+```
 
 ### 2. Cadastro de Veículos
 - Cadastro de múltiplos veículos por usuário.  
@@ -90,4 +91,4 @@ endif
 - Notificações de alterações feitas por convidados.  
 - Transferência de propriedade do veículo.  
 
-```
+
