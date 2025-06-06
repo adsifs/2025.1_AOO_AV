@@ -1,4 +1,4 @@
-# Registrar Despesas Gerais
+## Diagrama de Atividade: Registrar Despesas Gerais
 
 - Registro de despesas como IPVA, seguro, multas, lavagens, etc.  
 - Categorização das despesas.  
