@@ -52,6 +52,25 @@ correspondente, escrever e enviar uma mensagem de texto para o gestor da empresa
 
 ![diag_atividade_envia_msgempresa](https://github.com/user-attachments/assets/b81e0ecf-0461-4b2f-9947-5400680cb3f0)
 
+### Atividade - Sugerir ponto de parada ao motorista
+Nesse diagrama ilustra-se a atividade de sugestão de ponto de parada ao motorista. O sistema localiza a posição atual do motorista e verifica se há pontos de parada próximos disponíveis. Se houver, o sistema envia uma sugestão ao motorista. Caso contrário, é exibida a mensagem “Nenhum ponto próximo disponível”.
+
+![diag_atividade_pontodescanso.png](https://github.com/user-attachments/assets/ce2af0f8-ab0d-4aea-9cf3-c2c4e9ad9d77)
+
+### Atividade - Gerar relatório de viagem
+Nesse diagrama ilustra-se a atividade de geração de relatório de viagem. O gestor ou motorista acessa o sistema, seleciona a viagem desejada e o sistema coleta os dados correspondentes. Caso os dados sejam válidos, o sistema gera um relatório detalhado e o disponibiliza. Se os dados forem inválidos, uma mensagem de erro é exibida, solicitando nova seleção da viagem.
+
+![diag_atividade_gerarelatorio.png](https://github.com/user-attachments/assets/08709040-25fe-4338-821e-0da56fae51eb)
+
+### Atividade -  Monitorar tempo de viagem
+Nesse diagrama ilustra-se a atividade de monitoramento do tempo de viagem do motorista. A viagem se inicia e o sistema verifica continuamente se o motorista atingiu 5h30min de viagem. Caso isso ocorra, o motorista é notificado. Se ele já tiver feito uma pausa de 30 minutos, poderá continuar a viagem. Caso contrário, o sistema informa um ponto de descanso e contabiliza a pausa. Ao atingir 12h de viagem, o motorista deve descansar por 24h antes de continuar.
+
+![Diagrama de atividade-viagem.drawio.png](https://github.com/user-attachments/assets/58f20f2e-bdaa-44fc-807b-673ec1a2c3fb)
+
+### Atividade - Login do motorista
+Nesse diagrama ilustra-se a atividade de login do motorista. O sistema exibe a tela de login e o motorista informa email e senha. Se os campos estiverem preenchidos, o sistema valida as credenciais. Se forem inválidas, uma mensagem de erro é exibida. Se forem válidas e for o primeiro acesso, o sistema solicita a troca de senha. Após isso, ou em acessos futuros, o motorista é redirecionado ao painel. Caso os campos não estejam preenchidos, o sistema solicita o preenchimento e retorna para a tela de login.
+
+![diag_atividade_login.png](https://github.com/user-attachments/assets/8516e350-363a-48f9-a668-5524b82e67a9)
 
 ## 🔹 Diagramas de Estados
 ### Estados - Motorista
