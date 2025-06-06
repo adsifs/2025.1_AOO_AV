@@ -1,36 +1,29 @@
 # Atualizar Quilometragem
 
+- Atualização manual da quilometragem.  
+- Histórico das atualizações por usuário.  
+
+
+
 ```puml
 @startuml
 start
-title Diagrama de Atividade - Atualizar Quilometragem (Revisaí)
 
-:Usuário faz login;
-:Seleciona veículo desejado;
+:Usuário acessa "Atualizar Quilometragem";
 
-if (Usuário tem veículo cadastrado?) then (Sim)
-  :Verificar se o usuário é proprietário ou motorista autorizado;
+:Usuário informa nova quilometragem;
 
-  if (Permissão de acesso?) then (Sim)
-    :Seleciona opção "Atualizar Quilometragem";
-    :Inserir nova quilometragem;
-    :Validar se valor é maior que a quilometragem anterior;
+:Sistema valida se quilometragem é maior que a anterior;
 
-    if (Valor válido?) then (Sim)
-      :Atualizar quilometragem no banco de dados;
-      :Registrar histórico de alterações por usuário;
-      :Verificar se há manutenções preventivas com base na nova quilometragem;
-      :Disparar alertas de manutenção (se necessário);
-    else (Não)
-      :Exibir mensagem "Quilometragem inválida";
-    endif
+if (Válida?) then (Sim)
+  :Sistema atualiza a quilometragem do veículo;
 
-  else (Não)
-    :Exibir mensagem "Permissão negada";
-  endif
+  :Sistema registra a atualização com identificação do usuário;
+
+  :Sistema armazena no Histórico de Atualizações;
 
 else (Não)
-  :Exibir mensagem "Nenhum veículo cadastrado";
+  :Sistema exibe mensagem de erro: "Quilometragem inválida";
 endif
 
 stop
