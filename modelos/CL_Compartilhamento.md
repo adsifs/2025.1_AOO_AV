@@ -1,3 +1,11 @@
+# Compartilhamento de Veículo  
+- Compartilhamento por e-mail ou código de convite;  
+- Controle de permissões (visualização ou edição);  
+- Remoção de acesso a qualquer momento;  
+- Notificações de alterações feitas por convidados;  
+- Transferência de propriedade.
+
+```puml
 @startuml
 !theme mars
 
@@ -15,3 +23,4 @@ class Compartilhamento {
 }
 
 @enduml
+```
