@@ -215,9 +215,9 @@ Usuario "1" -- "0..*" Historico : gera/edita
 ```
 
 
-## 🔹 Diagrama de Estados
+# 🔹 Diagrama de Estados
 
-# Diagrama de Estado — Usuário
+## Diagrama de Estado — Usuário
 
 Estados:
 
