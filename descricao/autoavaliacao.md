@@ -40,12 +40,13 @@ Nossa equipe acabou demorando a evoluir na definição dos casos de uso e, conse
 **6. Como você avalia a qualidade do trabalho entregue?**
 
 - [ ] Excelente
-- [ ] Bom
+- [✓] Bom
 - [ ] Regular
 - [ ] Abaixo do esperado
 
-_Justifique:_  
-...
+_Justifique:_ 
+ 
+Avalio como um trabalho bom, pois poderia ser ainda mais complexo e descritivo, o que permitiria o trabalho alcançar uma qualidade superior. Ainda sim muitos diagramas completos e de alta qualidade foram criados para cada uma das necessidades do sistema, e no fim todos os integrantes conseguiram se juntar para que o trabalho ficasse devidamente organizado e que cumprisse todos os seus requisitos.
 
 ---
 
