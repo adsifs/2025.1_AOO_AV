@@ -1,3 +1,11 @@
+# Alerta
+- Alertas por tempo e quilometragem;
+- Notificações para todos os motoristas;
+- Sugestões de alertas baseadas no histórico;
+- Cálculo dinâmico de alertas.
+
+```puml
+
 @startuml
 !theme mars
 
@@ -20,3 +28,4 @@ class Alerta {
 }
 
 @enduml
+```
