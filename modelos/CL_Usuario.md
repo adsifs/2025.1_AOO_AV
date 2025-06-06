@@ -1,3 +1,11 @@
+# Usuário  
+- Cadastro com nome completo, e-mail e senha;  
+- Login via Google;  
+- Recuperação de senha por e-mail;  
+- Senha armazenada com hash seguro;  
+- Edição e exclusão da conta.
+
+```puml
 @startuml
 !theme mars
 
@@ -16,3 +24,4 @@ class Usuario {
 }
 
 @enduml
+```
