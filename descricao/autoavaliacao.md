@@ -7,7 +7,7 @@
 ## 🗂️ Organização do Grupo
 **1. Como o grupo organizou as atividades? Houve divisão de tarefas?**
 
-Todos os diagramas foi dividido e feitos por cada membro do grupo, dividindo as tarefas, depois de pronto compartilhavamos o que foi feito e juntava todas as terefas de cada um pra ser revisada por todos.
+Todos os diagramas foram divididos e feitos por cada membro do grupo, dividindo as tarefas. Depois de pronto, compartilhávamos o que foi feito e juntávamos todas as tarefas de cada um pra serem revisadas por todos.
 
 ---
 
