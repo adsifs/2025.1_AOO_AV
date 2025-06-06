@@ -1,51 +1,56 @@
 # Compartilhar Veículo
 
+- Compartilhamento via e-mail ou código de convite.  
+- Controle de permissões (visualização ou edição).  
+- Remoção de acesso a qualquer momento.  
+- Notificações de alterações feitas por convidados.  
+- Transferência de propriedade do veículo.
+
+
+
 ```puml
 @startuml
 start
-title Diagrama de Atividade - Compartilhar Veículo (Revisaí)
 
-:Proprietário acessa "Compartilhar Veículo";
+:Usuário acessa a opção "Compartilhar Veículo";
 
-:Exibir opções de compartilhamento;
-partition "Sistema" {
-  :Inserir e-mail ou gerar código de convite;
-  :Definir tipo de permissão (visualização ou edição);
-}
+:Sistema exibe opções:
+- Compartilhar via e-mail
+- Compartilhar via código de convite;
 
-if (Compartilhamento por e-mail?) then (Sim)
-  :Verifica se e-mail é de usuário registrado;
-  if (Usuário registrado?) then (Sim)
-    :Concede permissão conforme definida;
-    :Notifica convidado;
-    :Convidado acessa veículo com permissão;
-  else (Não)
-    :Envia convite para cadastro;
-  endif
-else (Não)
-  :Gera código de convite;
-  :Exibe código ao proprietário;
+:Usuário escolhe a forma de compartilhamento;
+
+if (Via e-mail?) then (Sim)
+  :Usuário informa o e-mail do convidado;
+  :Sistema envia convite com link de acesso;
+else (Via código)
+  :Sistema gera código de convite;
+  :Usuário compartilha o código com o convidado;
 endif
 
-partition "Fluxo Alternativo FA01" {
-  :Proprietário envia código manualmente;
-  :Convidado insere código no sistema;
-  :Sistema valida código;
-  :Concede acesso com permissão definida;
-}
+:Usuário define permissão:
+- Visualização
+- Edição;
 
-partition "Fluxo Alternativo FA02" {
-  :Proprietário acessa "Gerenciar permissões";
-  :Seleciona usuário com permissão de edição;
-  :Solicita transferência de propriedade;
-  :Notifica novo proprietário;
+:Sistema associa permissão ao convidado;
 
-  if (Novo proprietário aceita?) then (Sim)
-    :Atualiza propriedade do veículo;
-  else (Não)
-    :Mantém proprietário original;
-  endif
-}
+:Convidado aceita o convite;
+
+:Sistema concede o acesso conforme permissão;
+
+:Sistema ativa notificações de alterações ao proprietário;
+
+:Usuário deseja transferir a propriedade?;
+
+if (Sim)
+  :Usuário seleciona novo proprietário;
+  :Sistema transfere a propriedade;
+  :Novo proprietário recebe notificação;
+else (Não)
+  :Sistema mantém a propriedade original;
+endif
+
+:Usuário pode remover acesso de qualquer convidado a qualquer momento;
 
 stop
 @enduml
