@@ -1,4 +1,4 @@
-# Veículo  
+# Diagrama de Classes: Veículo  
 - Cadastro de múltiplos veículos por usuário;  
 - Campos obrigatórios: marca, modelo, ano, tipo de combustível, quilometragem atual, placa;  
 - Validação de placa nos formatos Mercosul e antigo;  
