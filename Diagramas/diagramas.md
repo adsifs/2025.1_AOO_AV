@@ -85,5 +85,8 @@ Nesse diagrama ilustra-se os estados que uma mensagem pode apresentar.
 ![diag_estados_mensagem](https://github.com/user-attachments/assets/5a197d41-1917-4163-90a1-89242836e90d)
 
 
+### Classe
 
 
+
+![diagrama_classe](https://drive.google.com/file/d/1mLqZeJ4iwDvE16SWk-5gmZbDNWzJ5CGC/view?usp=drivesdk)
