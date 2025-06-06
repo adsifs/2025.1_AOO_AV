@@ -1,4 +1,4 @@
-# Emitir Relatório
+## Diagrama de Atividade: Emitir Relatório/Histórico
 
 - Histórico completo por veículo.  
 - Filtros por motorista, serviço, oficina e datas.  
