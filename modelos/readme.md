@@ -4,6 +4,8 @@
 
 # 🔹Diagrama de caso de uso
 
+[Imagem](./diagramaUsoImagem.md) 
+
 ```puml
 @startuml
 left to right direction
