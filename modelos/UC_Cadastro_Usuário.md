@@ -1,4 +1,4 @@
-# Cadastro de Usuário
+## Diagrama de Atividade: Cadastro de Usuário
 
 - Cadastro com nome completo, e-mail e senha.  
 - Login via conta Google.  
