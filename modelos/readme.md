@@ -1,8 +1,8 @@
 # 📊 Diagramas UML do Sistema
 
-## Visão Geral do Sistema
+# Visão Geral do Sistema
 
-> Diagrama de caso de uso
+## Diagrama de caso de uso
 
 ```puml
 @startuml
