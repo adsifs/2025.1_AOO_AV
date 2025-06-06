@@ -18,7 +18,7 @@ Todos os diagramas foi dividido e feitos por cada membro do grupo, dividindo as 
 - Matheus de Jesus Tavares: Criei o repositório do projeto e convidei os demais integrantes para colaborar. Também contribui na produção dos diagramas, organização do repositório e participei com ideias e sugestões durante o trabalho em grupo.
 - Matheus Yuri dos Santos Bomfim: Realizei criação de diagramas, opinei junto aos outros sobre a melhor formar de apresentar os diagramas fazendo com que o nosso trabalho tenha mais coerência ao ser visualizado. 
 - Mirelle dos Santos Alves: Criei diagramas, colaborei com as discurções realizadas no grupo e organizei um pouco a parte da documentação no github.
-- Nalanda Vitória da Silva: Contribuí ativamente na criação dos diagramas, colaborando com os demais integrantes em cada etapa desse processo. Fui responsável pela ideia inicial do aplicativo "Revisai", que foi aprimorada com a participação do grupo. Elaborei os elementos gráficos da apresentação, incluindo a criação da logo, e participei de forma constante nas discussões sobre as atividades, contribuindo com sugestões e ajudando na divisão e organização das tarefas.
+- Nalanda Victoria da Silva: Contribuí ativamente na criação dos diagramas, colaborando com os demais integrantes em cada etapa desse processo. Fui responsável pela ideia inicial do aplicativo "Revisai", que foi aprimorada com a participação do grupo. Elaborei os elementos gráficos da apresentação, incluindo a criação da logo, e participei de forma constante nas discussões sobre as atividades, contribuindo com sugestões e ajudando na divisão e organização das tarefas.
 
 
 
