@@ -57,7 +57,7 @@ UC4 ..> UC3 : <<include>>
 @enduml
 ```
 
-## 🔹Diagrama de atividade
+## 🔹Diagrama de Atividade
 
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
