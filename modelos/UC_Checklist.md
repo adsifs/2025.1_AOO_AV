@@ -1,31 +1,31 @@
 # Checklist de Viagem
 
+- Lista sugerida com base no tipo de viagem e revisões.  
+- Exportação em PDF.
+
+
+
 ```puml
 @startuml
 start
-title Diagrama de Atividade - Checklist de Viagem (Revisaí)
 
-:Usuário solicita checklist;
+:Usuário acessa "Checklist de Viagem";
 
-if (Tipo de viagem?) then (Curta <100km)
-  :Itens básicos:
-  *Documentação, Kit emergência*;
-else (Longa >100km)
-  :Itens estendidos:
-  *+Estepe, Água, Lanternas*;
-endif
+:Sistema solicita tipo de viagem;
 
-:Personalizar lista (opcional);
-:Exportar PDF;
-:Enviar por e-mail (opcional);
+:Usuário informa o tipo (curta, longa, carga, passeio etc.);
+
+:Sistema sugere lista de itens com base no tipo e nas revisões necessárias;
+
+:Usuário revisa e confirma checklist;
+
+:Usuário solicita exportação;
+
+:Sistema gera checklist em PDF;
+
+:Usuário faz download do PDF;
 
 stop
-
-note left
-  *Dados utilizados*:
-  - Histórico do veículo
-  - Alertas pendentes
-  - Modelo/Marca
-end note
 @enduml
 ```
+
