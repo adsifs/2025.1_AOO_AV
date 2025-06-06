@@ -1,4 +1,4 @@
-# Checklist de Viagem
+# Diagrama de Classes: Checklist de Viagem
 - Lista sugerida baseada em tipo de viagem e revisão;
 - Exportação em PDF.
 
