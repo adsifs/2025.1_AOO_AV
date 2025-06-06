@@ -91,65 +91,11 @@ UC4 ..> UC3 : <<include>>
 
 # 🔹 Diagrama de Estados
 
-## Diagrama de Estado — Usuário
+| Nome                                     | Descrição breve                                               | Observações |
+|------------------------------------------|----------------------------------------------------------------|-------------|
+| [Usuario](./DE_usuario.md)               | Representa os estados possíveis da conta de um usuário. | -           |
+| [Veiculo](./DE_Veiculo.md)               | Mostra os estados de um veículo no sistema:cadastro, compartilhamento, transferência ou exclusão.         | -           |
+| [Manutencao](./DE_Manutencao.md)         | Reflete o ciclo de vida de uma manutenção veicular      | -           |
+| [Historico](./DE_H_Manutencao.md)        | Permite mostrar todo o historico de manutenção deo veiculo. | -           |
+| [Alerta](./DE_AL_Manutencao.md)          | Descreve o comportamento dos alertas inteligentes do sistema, desde a geração até o encerramento. | -           |
 
-Estados:
-
-Cadastrado: Usuário concluiu o processo de cadastro, mas ainda não está ativo.
-
-Ativo: Usuário autenticado e utilizando o sistema normalmente.
-
-Inativo: Conta desativada temporariamente.
-
-Bloqueado: Conta impedida de acesso por razões administrativas.
-
-Removido: Conta encerrada permanentemente.
-
-```plantuml
-@startuml
-[*] --> Cadastrado
-
-Cadastrado --> Ativo : Verificação concluída com sucesso
-Ativo --> Inativo : Usuário desativa a conta
-Inativo --> Ativo : Reativação da conta
-Ativo --> Bloqueado : Violação de termos / Denúncias
-Bloqueado --> Ativo : Recurso aceito ou reabilitação manual
-Cadastrado --> Bloqueado : Detecção de fraude ou erro grave no cadastro
-Bloqueado --> Removido : Conta encerrada definitivamente
-Inativo --> Removido : Exclusão definitiva a pedido do usuário
-Cadastrado --> Removido : Cadastro incompleto não confirmado após X dias
-
-@enduml
-```
-
-## Diagrama de Estado — Histórico de Manutenção 
-
-Estados:
-
-Criado: Registro inicial criado automaticamente ou por usuário.
-
-AguardandoConfirmacao: Pendência de validação.
-
-Confirmado: Registro validado.
-
-Editado: Sofreu alguma edição.
-
-Arquivado: Não mais ativo, mas mantido como histórico.
-
-Removido: Apagado do sistema.
-
-```plantuml
-@startuml
-[*] --> Criado
-
-Criado --> AguardandoConfirmacao : Dados aguardando validação do usuário ou sistema
-AguardandoConfirmacao --> Confirmado : Validação concluída com sucesso
-Confirmado --> Editado : Modificação feita manualmente
-Editado --> Confirmado : Nova validação concluída
-Confirmado --> Arquivado : Veículo vendido ou item não mais relevante
-Criado --> Removido : Remoção antes da confirmação
-AguardandoConfirmacao --> Removido : Dados inválidos ou inconsistentes
-
-@enduml
-
-```
