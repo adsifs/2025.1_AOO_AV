@@ -10,8 +10,6 @@ Os passos iniciais do projeto (escolha do projeto, definição de requisitos, re
 
 - Letícia Maciel: As minhas maiores contribuições foram a participação na definição de requisitos, regras de negócio e casos de uso, criação de alguns diagramas de atividade, os diagramas de estado e organização do projeto no Github.
 - Luiz Fernando: Minhas contribuições foram no levantamento de requisitos, regras de negócio, diagrama de caso de uso, casos de uso descritivos e organização do projeto no Github.
-- Maria Luísa: Minhas contribuições foram na participação da definição de requisitos, regras de negócios e casos de uso e diagramas de viagem, relatório, ponto de descanso e login.
-- Nome 4: 
 
 
 
@@ -44,8 +42,9 @@ Aprendemos a importância da comunicação constante e da divisão de tarefas pa
 - [ ] Regular
 - [ ] Abaixo do esperado
 
-_Justifique:_  
-...
+_Justifique:_ 
+ 
+Avalio como um trabalho bom, pois poderia ser ainda mais complexo e descritivo, o que permitiria o trabalho alcançar uma qualidade superior. Ainda sim muitos diagramas completos e de alta qualidade foram criados para cada uma das necessidades do sistema, e no fim todos os integrantes conseguiram se juntar para que o trabalho ficasse devidamente organizado e que cumprisse todos os seus requisitos.
 
 Apesar das dificuldades iniciais, conseguimos entregar um trabalho funcional e bem estruturado. Algumas partes poderiam ser mais detalhadas, mas conseguimos cumprir os principais objetivos da proposta.
 
