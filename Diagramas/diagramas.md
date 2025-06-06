@@ -86,7 +86,7 @@ Nesse diagrama ilustra-se os estados que uma mensagem pode apresentar.
 
 
 ### Classe
-
+Neste diagrama ilustra-se várias das classes que compõem esse Sistema
 
 
 ![diagrama_classe.png](https://github.com/user-attachments/assets/418bb81d-e060-4722-818e-8989f884ce15)
