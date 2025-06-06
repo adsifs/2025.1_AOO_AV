@@ -75,144 +75,17 @@ UC4 ..> UC3 : <<include>>
 
 ## 🔹 Diagrama de Classes
 
-### Módulo de Usuário
+| Nome                                     | Descrição breve                                               | Observações |
+|------------------------------------------|----------------------------------------------------------------|-------------|
+| [Usuario](./CL_Usuario.md)               | Representa o usuário da aplicação, com permissões e métodos de conta. | -           |
+| [Veiculo](./CL_Veiculo.md)              | Representa um veículo cadastrado pelo usuário.                 | -           |
+| [Manutencao](./CL_Manutencao.md)        | Armazena informações de serviços realizados no veículo.       | -           |
+| [Alerta](./CL_Alerta.md)                | Permite a criação de alertas de manutenção por tempo ou quilometragem. | -           |
+| [Despesa](./CL_Despesa.md)              | Registra despesas gerais associadas ao veículo.               | -           |
+| [Historico](./CL_Historico.md)          | Mantém um log de ações realizadas sobre o veículo.            | -           |
+| [Compartilhamento](./CL_Compartilhamento.md) | Gerencia o compartilhamento de veículos com outros usuários.   | -           |
+| [ChecklistViagem](./CL_Checklist.md) | Permite criar listas personalizadas para preparo de viagens.   | -           |
 
-```plantuml
-@startuml
-!theme mars
-
-class Usuario {
-    -id: UUID
-    -nomeCompleto: String
-    -email: String
-    -senhaHash: String
-    -tipoLogin: Enum (TRADICIONAL, GOOGLE)
-    -permissao: Enum (BASICO, PREMIUM, CORPORATIVO)
-    +cadastrar()
-    +autenticar()
-    +recuperarSenha()
-    +editarConta()
-    +excluirConta()
-}
-
-class Veiculo {
-    -id: UUID
-    -marca: String
-    -modelo: String
-    -ano: Integer
-    -tipoCombustivel: String
-    -quilometragemAtual: Long
-    -placa: String
-    -proprietarioId: UUID
-    +cadastrar()
-    +editar()
-    +excluir()
-    +atualizarQuilometragem(novaKm: Long)
-}
-
-class Manutencao {
-    -id: UUID
-    -tipoServico: String
-    -data: Date
-    -quilometragem: Long
-    -oficina: String
-    -valor: Double
-    -observacoes: String
-    -notaFiscalUrl: String
-    -autorId: UUID
-    -veiculoId: UUID
-    +registrar()
-    +editar()
-    +excluir()
-    +lerNotaFiscalOCR()
-}
-
-class Alerta {
-    -id: UUID
-    -tipo: Enum (TEMPO, QUILOMETRAGEM, COMBINADO)
-    -dataAlvo: Date
-    -quilometragemAlvo: Long
-    -descricao: String
-    -status: Enum (ATIVO, CONCLUIDO, ADIADO, CANCELADO)
-    -veiculoId: UUID
-    -autorId: UUID
-    +gerar()
-    +notificar()
-    +confirmar()
-    +ajustarParametros()
-    +marcarComoConcluido()
-    +adiar()
-    +cancelar()
-}
-
-class Despesa {
-    -id: UUID
-    -tipo: String
-    -data: Date
-    -valor: Double
-    -descricao: String
-    -categoria: String
-    -comprovanteUrl: String
-    -veiculoId: UUID
-    -autorId: UUID
-    +registrar()
-    +editar()
-    +excluir()
-}
-
-class Historico {
-    -id: UUID
-    -dataRegistro: Date
-    -tipoRegistro: Enum (MANUTENCAO, DESPESA, ATUALIZACAO_KM, CHECKLIST)
-    -detalhes: String
-    -veiculoId: UUID
-    -autorId: UUID
-    +consultar()
-    +filtrar()
-    +gerarRelatorioPDF()
-}
-
-class Compartilhamento {
-    -id: UUID
-    -veiculoId: UUID
-    -usuarioConvidadoId: UUID
-    -permissao: Enum (VISUALIZACAO, EDICAO)
-    -codigoConvite: String
-    -status: Enum (PENDENTE, ACEITO, REVOGADO)
-    +compartilharPorEmail()
-    +gerarCodigoConvite()
-    +removerAcesso()
-    +transferirPropriedade()
-}
-
-class ChecklistViagem {
-    -id: UUID
-    -tipoViagem: String
-    -dataGeracao: Date
-    -itens: List<String>
-    -status: Enum (PENDENTE, CONCLUIDO)
-    -veiculoId: UUID
-    -autorId: UUID
-    +gerarSugestao()
-    +personalizar()
-    +exportarPDF()
-    +marcarItemVerificado()
-    +registrarConclusao()
-}
-
-Usuario "1" -- "0..*" Veiculo : possui
-Veiculo "1" -- "0..*" Manutencao : possui
-Veiculo "1" -- "0..*" Alerta : possui
-Veiculo "1" -- "0..*" Despesa : possui
-Veiculo "1" -- "0..*" Historico : possui
-Veiculo "1" -- "0..*" ChecklistViagem : possui
-Usuario "1" -- "0..*" Compartilhamento : convida
-Veiculo "1" -- "0..*" Compartilhamento : é compartilhado
-Usuario "1" -- "0..*" Historico : gera/edita
-
-@enduml
-
-```
 
 
 # 🔹 Diagrama de Estados
