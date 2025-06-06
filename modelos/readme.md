@@ -78,14 +78,14 @@ UC4 ..> UC3 : <<include>>
 | Nome                                     | Descrição breve                                               | Observações |
 |------------------------------------------|----------------------------------------------------------------|-------------|
 | [Usuario](./CL_Usuario.md)               | Representa o usuário da aplicação, com permissões e métodos de conta. | -           |
-| [Veiculo](./CL_Veiculo.md)              | Representa um veículo cadastrado pelo usuário.                 | -           |
+| [Veiculo](./CL_Veiculo.md)               | Representa um veículo cadastrado pelo usuário.                 | -           |
 | [Manutencao](./CL_Manutencao.md)        | Armazena informações de serviços realizados no veículo.       | -           |
-| [Alerta](./CL_Alerta.md)                | Permite a criação de alertas de manutenção por tempo ou quilometragem. | -           |
-| [Despesa](./CL_Despesa.md)              | Registra despesas gerais associadas ao veículo.               | -           |
-| [Historico](./CL_Historico.md)          | Mantém um log de ações realizadas sobre o veículo.            | -           |
+| [Alerta](./CL_Alerta.md)                 | Permite a criação de alertas de manutenção por tempo ou quilometragem. | -           |
+| [Despesa](./CL_Despesa.md)               | Registra despesas gerais associadas ao veículo.               | -           |
+| [Historico](./CL_Historico.md)           | Mantém um log de ações realizadas sobre o veículo.            | -           |
 | [Compartilhamento](./CL_Compartilhamento.md) | Gerencia o compartilhamento de veículos com outros usuários.   | -           |
-| [ChecklistViagem](./CL_Checklist.md) | Permite criar listas personalizadas para preparo de viagens.   | -           |
-
+| [ChecklistViagem](./CL_Checklist.md)     | Permite criar listas personalizadas para preparo de viagens.   | -           |
+| [Relacionamentos](./CL_Relacionamentos.md) | Define as associações entre usuários, veículos e outras entidades do sistema. | -           |
 
 
 # 🔹 Diagrama de Estados
