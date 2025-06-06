@@ -1,45 +1,36 @@
 # Registrar Despesas Gerais
 
+- Registro de despesas como IPVA, seguro, multas, lavagens, etc.  
+- Categorização das despesas.  
+- Relatórios por mês, categoria e veículo.  
+
+
+
 ```puml
 @startuml
 start
-title Diagrama de Atividade - Registrar Despesas Gerais (Revisaí)
 
-:Usuário acessa veículo específico;
-:Sistema exibe menu de despesas;
+:Usuário acessa "Registrar Despesa";
 
-if (opção escolhida) then (Registrar nova despesa)
+:Sistema exibe campos:
+- Tipo de despesa (IPVA, seguro, multa, lavagem etc.)
+- Valor
+- Data
+- Observações;
 
- repeat
+:Usuário preenche os dados;
 
-    fork
-      :IPVA/Seguro;
-    fork again
-      :Multas;
-    fork again
-      :Lavagens;
-    fork again
-      :Outras;
-    end fork
-    :Categorizar (obrigatório);
+:Sistema categoriza a despesa;
 
-    :Anexar comprovante;
-    :Validar placa vinculada;
-  repeat while (Registrar nova despesa?) is (Sim)
-  -> Não;
-   
-  
-else (Gerar relatórios)
- :Selecionar filtros:
- *Mês, Categoria, Veículo*;
- :Exportar (PDF/Excel);
-note right
-   *Integrações*:
-   - Alertas para IPVA
-   - Cálculo de custos
-   - Histórico de manutenções
-   end note
-endif
+:Sistema armazena a despesa no registro do veículo;
+
+:Usuário solicita relatórios;
+
+:Sistema exibe relatórios por:
+- Mês
+- Categoria
+- Veículo;
+
 stop
 @enduml
 ```
