@@ -1,4 +1,4 @@
-# Checklist de Viagem
+## Diagrama de Atividade: Checklist de Viagem
 
 - Lista sugerida com base no tipo de viagem e revisões.  
 - Exportação em PDF.
