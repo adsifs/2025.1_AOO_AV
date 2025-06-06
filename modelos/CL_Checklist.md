@@ -1,5 +1,6 @@
 #Checklist de Viagem
 
+```puml
 @startuml
 !theme mars
 
@@ -19,3 +20,4 @@ class ChecklistViagem {
 }
 
 @enduml
+```
