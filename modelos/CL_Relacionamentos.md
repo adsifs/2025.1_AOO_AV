@@ -1,4 +1,4 @@
-# Relacionamentos  
+# Diagrama de Classes: Relacionamentos  
 - Definição clara das associações entre usuários, veículos e demais entidades do sistema;  
 - Um usuário pode possuir vários veículos;  
 - Cada veículo pode ter múltiplas manutenções, alertas, despesas, históricos e checklists de viagem;  
