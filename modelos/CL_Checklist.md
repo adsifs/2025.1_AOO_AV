@@ -1,4 +1,5 @@
 #Checklist de Viagem
+- 
 
 ```puml
 @startuml
