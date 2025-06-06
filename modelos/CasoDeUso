@@ -1,18 +1,1 @@
-```
-@startuml
-title Diagrama de Estados - Alerta de Manutenção
 
-[*] --> Gerado : gerarAlerta()
-
-Gerado --> Ativo : verificarCondicoes()
-Ativo --> Atendido : realizarManutencao()
-Ativo --> Expirado : ultrapassarTempoLimite()
-
-Gerado --> Cancelado : cancelarAlerta()
-Ativo --> Cancelado : cancelarAlerta()
-
-Atendido --> [*]
-Expirado --> [*]
-Cancelado --> [*]
-@enduml
-```
