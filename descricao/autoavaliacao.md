@@ -15,6 +15,7 @@ Todos os diagramas foi dividido e feitos por cada membro do grupo, dividindo as 
 **2. O que você considera que mais contribuiu no projeto?**
 > Aqui cada usuário deverá realizar sua descrição e realizar o envio com o seu nome para ficar registrado no github
 
+- Ataíde Mateus Gualberto dos Santos: Desenvolvi os diagramas de estado e participei das discussões no grupo.
 - Matheus de Jesus Tavares: Criei o repositório do projeto e convidei os demais integrantes para colaborar. Também contribui na produção dos diagramas, organização do repositório e participei com ideias e sugestões durante o trabalho em grupo.
 - Matheus Yuri dos Santos Bomfim: Realizei criação de diagramas, opinei junto aos outros sobre a melhor formar de apresentar os diagramas fazendo com que o nosso trabalho tenha mais coerência ao ser visualizado. 
 - Mirelle dos Santos Alves: Criei diagramas, colaborei com as discurções realizadas no grupo e organizei um pouco a parte da documentação no github.
@@ -37,7 +38,8 @@ _Justifique brevemente sua resposta_: Apesar das demandas de outras disciplinas 
 ---
 
 ## 📚 Aprendizados
-**4. Qual o principal aprendizado técnico que você tirou deste trabalho?**  
+**4. Qual o principal aprendizado técnico que você tirou deste trabalho?** 
+- Ataíde Mateus Gualberto dos Santos: O desenvolvimento de diagramas de classe, estado, uso de classe e todos os outros, me trouxeram mais perto da parte de análise do curso, até então majoritariamente focado em desenvolvimento.
 - Matheus de Jesus Tavares: aprender a usar o github, como documentar e criar os diagramas. achei muito legal.
 - Matheus Yuri dos Santos Bomfim: Sem duvida, criar diagramas e principalmente usar o github.
 - Mirelle dos Santos Alves: o maior aprendizado foi aprender a mexer no github, pois ele é muito importante para os proximos projetos no decorrer do curso e na vida profissional, e a por em prática o que foi ensinado na aula com o desenvolvimento dos diagramas.
@@ -46,7 +48,8 @@ _Justifique brevemente sua resposta_: Apesar das demandas de outras disciplinas 
 ---
 
 **5. E pessoal (relacionado a trabalho em grupo, organização, etc)?**  
-- Matheus de Jesus Tavares: meu grupo e muito bom e tranquilo, pessoas maduras e organizadas que ajudou muito no processo pois compartilhamos muitas informações e podemos aprender muito um com o outro.
+- Ataíde Mateus Gualberto dos Santos: O grupo foi composto por pessoas competentes e dedicadas, com vontade de aprender. Como não houveram maiores gargalos, não tenho nada a reclamar de nenhum membro.
+- Matheus de Jesus Tavares: meu grupo é muito bom e tranquilo, pessoas maduras e organizadas que ajudou muito no processo pois compartilhamos muitas informações e podemos aprender muito um com o outro.
 - Matheus Yuri dos Santos Bomfim: Grupo bom de trabalhar, sem muito à falar sobre os mesmos.
 - Mirelle dos Santos Alves: acho que fomos bem, não tenho nada a reclamar, tudo foi discutido em grupo.
 - Nalanda Victoria da Silva: Já costumo fazer trabalho com dois integrantes do grupo, mas nesse trabalho tive oportunidade de trabalhar com outros colegas. Isso foi bom para "sair da zona de conforto" e ter contato com quem ainda não tenho muita familiaridade, simulando o mercado de trabalho mesmo. Todos entregaram suas partes dentro do prazo e não houve nenhum contratempo.
@@ -68,6 +71,7 @@ _Justifique:_ Conseguimos fazer todos os diagramas e estruturar ele bem, nosso p
 
 ## ✍️ Sugestões para o professor
 **7. Alguma sugestão para melhorar este tipo de atividade ou avaliação no futuro?**  
+- Ataíde Mateus Gualberto dos Santos: Talvez propor que haja uma disciplina que dê continuidade direta com o desenvolvimento do projeto. Por exemplo, utilizando alguma metodologia ágil para implementar os requisitos descritos na disciplina.
 - Matheus de Jesus Tavares: gostei muito da forma que o professor levou a diciplina em si, e dessa forma de atividade foi excelente pois nos ajudou a entender essa documentação e ainda aprender ferramentas novas como o github
 - Matheus Yuri dos Santos Bomfim: No geral gostei, mas seria bom uma horinha para explicar o funcionamento do github.
 - Mirelle dos Santos Alves: foi bem bacana aprender sobre a estruturação de uma documentação, bati um pouco a cabeça pra mexer no github, mas consegui entender um pouco como ele funciona, acho que poderia ter disponibilizado o modelo mais cedo para ficar mais alinhado com o que foi pedido.
