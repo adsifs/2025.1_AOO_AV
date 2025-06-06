@@ -41,4 +41,5 @@ Aplicativo focado no gerenciamento de veículos pessoais ou de frota, oferecendo
 - Matheus de Jesus Tavares
 - Matheus Yuri dos Santos Bomfim
 - Mirelle dos Santos Alves
+- Nalanda Victoria da Silva
 
