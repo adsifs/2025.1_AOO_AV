@@ -30,6 +30,7 @@ A definição dos casos de uso demorou, o que atrasou o diagrama inicial e impac
 ## 📚 Aprendizados
 **4. Qual o principal aprendizado técnico que você tirou deste trabalho?**  
 Aprendemos a utilizar melhor as ferramentas de modelagem de software, como a criação de diagramas UML, além de aplicar conceitos de análise orientada a objetos na prática.
+
 **5. E pessoal (relacionado a trabalho em grupo, organização, etc)?**  
 Aprendemos a importância da comunicação constante e da divisão de tarefas para evitar sobrecarga e atrasos. A experiência também reforçou o valor de manter um cronograma bem definido desde o início.
 
