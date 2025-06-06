@@ -2,7 +2,7 @@
 
 # Visão Geral do Sistema
 
-## Diagrama de caso de uso
+# 🔹Diagrama de caso de uso
 
 ```puml
 @startuml
@@ -57,7 +57,7 @@ UC4 ..> UC3 : <<include>>
 @enduml
 ```
 
-## 🔹Diagrama de Atividade
+#🔹Diagrama de Atividade
 
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
@@ -72,7 +72,7 @@ UC4 ..> UC3 : <<include>>
 | [Fazer Checklist de Viagem](./UC_Checklist.md) | Permite a criação de uma checklist com base na distância da viagem | -           |
 
 
-## 🔹 Diagrama de Classes
+# 🔹 Diagrama de Classes
 
 | Nome                                     | Descrição breve                                               | Observações |
 |------------------------------------------|----------------------------------------------------------------|-------------|
