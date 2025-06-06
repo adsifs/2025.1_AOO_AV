@@ -1,30 +1,37 @@
 # Emitir Relatório
 
+- Histórico completo por veículo.  
+- Filtros por motorista, serviço, oficina e datas.  
+- Relatórios promocionais e exportação em PDF.  
+- Geração de relatório de entrega de veículo.
+
+
+
 ```puml
 @startuml
 start
-title Diagrama de Atividade - Emitir Relatório (Revisaí)
 
-:Usuário faz login (ou já está autenticado);
-:Seleciona veículo;
-:Abre menu de relatórios;
-:Escolhe tipo de relatório (histórico, despesas, manutenções...);
+:Usuário acessa "Histórico e Relatórios";
 
-if (Permissão de acesso?) then (Sim)
-  :Seleciona filtros (período, motorista, oficina, etc.);
-  :Buscar dados no banco;
+:Sistema exibe filtros:
+- Motorista
+- Serviço
+- Oficina
+- Datas;
 
-  if (Dados encontrados?) then (Sim)
-    :Gerar relatório em PDF;
-    :Exibir opção de download ou compartilhamento;
-    :Exibir relatório visual com gráficos (opcional);
-  else (Não)
-    :Exibir mensagem "Sem dados para o período";
-  endif
+:Usuário aplica filtros;
 
-else (Não)
-  :Exibir mensagem "Permissão negada";
+:Sistema exibe histórico completo do veículo;
+
+:Usuário solicita geração de relatório;
+
+if (Tipo de relatório: promocional ou entrega?) then (Entrega)
+  :Sistema gera relatório de entrega de veículo em PDF;
+else (Promocional)
+  :Sistema gera relatório promocional em PDF;
 endif
+
+:Usuário faz download do PDF;
 
 stop
 @enduml
