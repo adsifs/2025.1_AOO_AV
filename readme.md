@@ -37,7 +37,8 @@ Aplicativo focado no gerenciamento de veículos pessoais ou de frota, oferecendo
 - PlantUML
 
 ## 👥 Integrantes
+- Ataíde Mateus Gualberto dos Santos
 - Matheus de Jesus Tavares
 - Matheus Yuri dos Santos Bomfim
 - Mirelle dos Santos Alves
-- Nome 2 
+
