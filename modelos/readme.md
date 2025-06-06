@@ -64,7 +64,7 @@ UC4 ..> UC3 : <<include>>
 | [Realizar Login](./UC_login.md) | Permite o acesso ao sistema | -           |
 | [Cadastrar Usuário](./UC_Cadastro_Usuário.md) | Permite o cadastro de usuário | -           |
 | [Cadastrar Veiculo](./UC_Cadastro_Veículo.md) | Permite o cadastro de veiculo | -           |
-| [Registrar Documentação]() | Registra a documentação dos cadastros | É necessario para a conclusão dos cadastros |
+| [Registrar Documentação] | Registra a documentação dos cadastros | É necessario para a conclusão dos cadastros |
 | [Compartilhar Veículos](./UC_Compartilhar_Veículo.md) | Permite o compartilhamento de veiculo | -           |
 | [Registrar Manutenções](./UC_Manutenção.md) | Permite o registro de manutenção do veiculo | -           |
 | [Emitir Históricos e Relatórios](./UC_Emitir_Relatório.md) | Permite a emição de relatórios e o histórico do veiculo | -           |
