@@ -1,4 +1,4 @@
-# Usuário  
+# Diagrama de Classes: Usuário  
 - Cadastro com nome completo, e-mail e senha;  
 - Login via Google;  
 - Recuperação de senha por e-mail;  
