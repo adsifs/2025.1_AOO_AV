@@ -1,4 +1,4 @@
-# Despesa
+# Diagrama de Classes: Despesa
 - Registro de despesas com abastecimento, manutenção, pedágios e mais;  
 - Classificação por categoria para controle financeiro;  
 - Inclusão de comprovantes em imagem ou PDF;  
