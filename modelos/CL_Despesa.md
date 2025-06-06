@@ -1,3 +1,11 @@
+# Despesa
+- Registro de despesas com abastecimento, manutenção, pedágios e mais;  
+- Classificação por categoria para controle financeiro;  
+- Inclusão de comprovantes em imagem ou PDF;  
+- Edição ou exclusão de lançamentos a qualquer momento;  
+- Associação de cada despesa a um veículo específico.
+
+```puml
 @startuml
 !theme mars
 
@@ -17,3 +25,4 @@ class Despesa {
 }
 
 @enduml
+```
