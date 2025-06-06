@@ -1,4 +1,4 @@
-# Manutenções do veículo
+## Diagrama de Atividade: Manutenções do veículo
 
 - Registro de tipo de serviço, data, quilometragem, oficina, valor e observações.  
 - Upload de nota fiscal com leitura automática (OCR).  
