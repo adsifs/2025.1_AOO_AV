@@ -1,4 +1,4 @@
-# Cadastro de Veículo
+## Diagrama de Atividade: Cadastro de Veículo
 
 - Cadastro de múltiplos veículos por usuário.  
 - Campos obrigatórios: marca, modelo, ano, combustível, quilometragem atual, placa.  
