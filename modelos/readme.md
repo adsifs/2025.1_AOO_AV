@@ -4,7 +4,7 @@
 
 # 🔹Diagrama de caso de uso
 
-[Imagem](./diagramaUsoImagem.md) 
+[Imagem do diagrama e o descritivo](./diagramaUsoImagem.md) 
 
 ```puml
 @startuml
