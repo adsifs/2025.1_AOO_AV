@@ -1,4 +1,4 @@
-# Compartilhar Veículo
+## Diagrama de Atividade: Compartilhar Veículo
 
 - Compartilhamento via e-mail ou código de convite.  
 - Controle de permissões (visualização ou edição).  
