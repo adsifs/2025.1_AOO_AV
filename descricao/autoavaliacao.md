@@ -40,7 +40,7 @@ Nossa equipe acabou demorando a evoluir na definição dos casos de uso e, conse
 **6. Como você avalia a qualidade do trabalho entregue?**
 
 - [ ] Excelente
-- [✓] Bom
+- [x] Bom
 - [ ] Regular
 - [ ] Abaixo do esperado
 
