@@ -1,3 +1,10 @@
+# Histórico  
+- Registro completo de eventos vinculados a cada veículo;  
+- Tipos de registro: manutenção, despesa, atualização de quilometragem e checklist;  
+- Consulta detalhada dos acontecimentos por data;  
+- Filtros por tipo e autor do registro.
+
+```puml
 @startuml
 !theme mars
 
@@ -14,3 +21,4 @@ class Historico {
 }
 
 @enduml
+```
