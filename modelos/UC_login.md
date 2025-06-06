@@ -1,4 +1,6 @@
-# 1. 🎯 Caso de Uso: Login de Usuário
+## Diagrama de Atividade
+
+#### 1. 🎯 Caso de Uso: Login de Usuário
 - [1. 🎯 Caso de Uso: Login](#1--caso-de-uso-login)
 	- [1.1. Identificação](#11-identificação)
 	- [1.2. Visão Geral](#12-visão-geral)
