@@ -27,4 +27,4 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 ## 👥 Integrantes
 - [Luiz Fernando Santos Menezes](https://github.com/Luiz-Ferndo)
 - [Leticia Maciel dos Reis](https://github.com/lemacx)
-
+- [Kayo Gabryel Santos Vieira](https://github.com/Kaykooo7)
