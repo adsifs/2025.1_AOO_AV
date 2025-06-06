@@ -57,7 +57,7 @@ UC4 ..> UC3 : <<include>>
 @enduml
 ```
 
-## Casos de Uso
+## 🔹 Casos de Uso
 
 | Nome                               | Descrição breve             | Observações |
 | ---------------------------------- | --------------------------- | ----------- |
