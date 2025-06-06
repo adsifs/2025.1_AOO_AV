@@ -1,4 +1,4 @@
-# Alerta
+# Diagrama de Classes: Alerta
 - Alertas por tempo e quilometragem;
 - Notificações para todos os motoristas;
 - Sugestões de alertas baseadas no histórico;
