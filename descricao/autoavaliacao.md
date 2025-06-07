@@ -45,7 +45,8 @@ Aprendemos a importância da comunicação constante e da divisão de tarefas pa
 - [ ] Abaixo do esperado
 
 _Justifique:_ 
- Apesar das dificuldades iniciais, conseguimos entregar um trabalho funcional e bem estruturado. Algumas partes poderiam ser mais detalhadas, mas conseguimos cumprir os principais objetivos da proposta.
+ 
+Apesar das dificuldades iniciais, conseguimos entregar um trabalho funcional e bem estruturado. Algumas partes poderiam ser mais detalhadas, mas conseguimos cumprir os principais objetivos da proposta.
 
 
 ## ✍️ Sugestões para o professor
