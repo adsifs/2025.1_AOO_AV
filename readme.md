@@ -1,33 +1,35 @@
-# SyncPlayers
+# Avaliação Prática AOO
+
+## [Clique aqui](./descricao/AV1.md)  para visualizar o conteúdo da AV1.
+
+## [Clique aqui](./descricao/AV2.md)  para visualizar o conteúdo da AV2.
+
+---
+
+[RepoAV]: https://github.com/adsifs/2025.1_AOO_AV.git
+
+# Nome do Sistema
 
 ## 💡 Descrição Geral
-SyncPlayers é uma solução voltada para jogadores que enfrentam dificuldades em encontrar outros gamers com interesses semelhantes, horários compatíveis e preferência pelos mesmos jogos.
+Breve descrição do sistema apresentado no pitch. Indique o problema que resolve, público-alvo e principais funcionalidades.
 
 ## 📌 Escopo Geral
-Principais módulos/funções definidos para o projeto:
+Liste de forma objetiva os principais módulos/funções definidos no início do projeto:
 
-- [ ] Chat entre jogadores
-- [ ] Envio de convites para partidas
-- [ ] Sistema de busca por jogadores compatíveis
-- [ ] Sugestão de amigos conforme estilo de jogo e plataforma
+- [ ] Funcionalidade 1
+- [ ] Funcionalidade 2
+- [ ] ...
 
 ## 📁 Estrutura dos Arquivos
-- [Descricao](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
-- [Requisitos](requisitos.md): Lista de requisitos funcionais e não funcionais.
-- [Modelos](./modelos/Modelos.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
-- [Detalhes](./modelos/DiagramaCasodeUso/CasosUsoDescricao.md): Detalhe dos requisitos dos sistema.
-- [Autoavaliacao](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
+- [descricao/](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
+- [requisitos.md](requisitos.md): Lista de requisitos funcionais e não funcionais.
+- [modelos/](./modelos/readme.md): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
+- [autoavaliacao.md](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
+- [requisitos.md](./requisitos.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
-
-- [LucidChart](https://www.lucidchart.com)
-- [StarUML](https://staruml.io/)
-- [PlantUML](https://plantuml.com/)
-- [Pladitor](https://plantumleditor.com)
+Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem.
 
 ## 👥 Integrantes
-- :octocat: [Stanly Almeida do Carmo](https://github.com/Stanly1BR/)
-- :octocat: [Jadson Alves do Nascimento](https://github.com/JadsonGitHub)
-- :octocat: [José Anderson de Almeida Silva](https://github.com/andersonsillva1/)
-- :octocat: [Rafael Chaves de Góis](https://github.com/RafaelRTXrv297)
-- :octocat: [Luiz Gustavo Gomes Leal Fagundes](https://github.com/LuizGomesL)
+- Nome 1 
+- Nome 2 
