@@ -1,8 +1,8 @@
 # Avaliação Prática AOO
 
-## [Clique aqui](AV1.md)  para visualizar o conteúdo da AV1.
+## [Clique aqui](./descricao/AV1.md)  para visualizar o conteúdo da AV1.
 
-## [Clique aqui](AV2.md)  para visualizar o conteúdo da AV2.
+## [Clique aqui](./descricao/AV2.md)  para visualizar o conteúdo da AV2.
 
 ---
 
