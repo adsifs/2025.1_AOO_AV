@@ -16,7 +16,9 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 ## 📁 Estrutura dos Arquivos
 - [descricao/](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
 - [requisitos.md](requisitos.md): Lista de requisitos funcionais e não funcionais.
-- [diagramas/](./Diagramas): Diagramas UML utilizados (caso de uso, atividades, classes, estados).
+- [Caso de Uso](./Diagramas/Caso%20de%20Uso/Caso_de_uso_descritivo.md): Diagrama e descritivo de Caso de Uso.
+- [Estado](./Diagramas/Estado/Estado.md): Diagramas de Estado
+- [Atividade](./Diagramas/Atividade/Atividade.md): Diagramas de Atividade
 - [autoavaliacao.md](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
 
 
