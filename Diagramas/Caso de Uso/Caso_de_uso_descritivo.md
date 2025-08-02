@@ -1,3 +1,5 @@
+![Diagrama de Caso de Uso](./Caso_de_Uso.png)
+
 # Casos de Uso
 
 ## Login
