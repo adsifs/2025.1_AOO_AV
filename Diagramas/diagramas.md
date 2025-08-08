@@ -6,51 +6,51 @@
 Nesse diagrama ilustra-se a atividade de cadastrar motorista, na qual o gestor da empresa pode acessar o sistema e cadastrar um
 novo motorista, adicionando os seus dados.
 
-![diag_atv_cadastromotorista](../Diagramas/Atividade/diag_atv_cadastromotorista.png)
+![diag_atv_cadastromotorista.png](../Diagramas/Atividade/diag_atv_cadastromotorista.png)
 
 ### Atividade - Cadastrar frota
 Nesse diagrama ilustra-se a atividade de cadastrar a frota da empresa, na qual o gestor da empresa pode acessar o sistema e
 adicionar os dados para cadastro de um novo veículo.
 
-![diag_atv_cadastroveiculo](../Diagramas/Atividade/diag_atv_cadastroveiculo.png)
+![diag_atv_cadastroveiculo.png](../Diagramas/Atividade/diag_atv_cadastroveiculo.png)
 
 ### Atividade - Cadastrar carga
 Nesse diagrama ilustra-se a atividade de cadastrar uma carga, na qual o gestor da empresa pode acessar o sistema e
 adicionar os dados para cadastro de uma nova carga.
 
-![diag_atv_cadastrocarga](../Diagramas/Atividade/diag_atv_cadastrocarga.png)
+![diag_atv_cadastrocarga.png](../Diagramas/Atividade/diag_atv_cadastrocarga.png)
 
 ### Atividade - Alerta de licenciamento próximo ao vencimento
 Nesse diagrama ilustra-se a atividade de gerar o alerta de licenciamento próximo ao vencimento, na qual o sistema, por meio de 
 verificações constantes, ao verificar a proximidade do vencimento do licenciamento de um veículo da frota, emite uma mensagem
 de alerta ao gestor da empresa.
 
-![diag_atv_alertalicenciamento](../Diagramas/Atividade/diag_atv_alertalicenciamento.png)
+![diag_atv_alertalicenciamento.png](../Diagramas/Atividade/diag_atv_alertalicenciamento.png)
 
 ### Atividade - Buscar veículo
 Nesse diagrama ilustra-se a atividade de buscar/filtrar veículos da frota da empresa, na qual o gestor da empresa pode acessar
 o sistema, adicionar os dados do veículo requerido na busca e ter acesso ao status desse veículo.
 
-![diag_atv_buscaveiculo](../Diagramas/Atividade/diag_atv_buscaveiculo.png)
+![diag_atv_buscaveiculo.png](../Diagramas/Atividade/diag_atv_buscaveiculo.png)
 
 ### Atividade - Calcular média de consumo de combustível
 Nesse diagrama ilustra-se a atividade de calcular a média de consumo de combustível de cada veiculo da frota,
 na qual o sistema, a partir de dados de abastecimento e distância percorrida pelo veículo, calcula a sua média
 de consumo e disponibiliza essa informação ao gestor da empresa.
 
-![diag_atv_calculacombustivel](../Diagramas/Atividade/diag_atv_calculacombustivel.png)
+![diag_atv_calculacombustivel.png](../Diagramas/Atividade/diag_atv_calculacombustivel.png)
 
 ### Atividade - Empresa envia mensagem ao motorista
 Nesse diagrama ilustra-se a atividade de envio de mensagem ao motorista, na qual o gestor da empresa pode acessar o sistema, no
 campo correspondente, selecionar um motorista e enviar uma mensagem de texto a esse motorista.
 
-![diag_atv_empresaenviamsg](../Diagramas/Atividade/diag_atv_empresaenviamsg.png)
+![diag_atv_empresaenviamsg.png](../Diagramas/Atividade/diag_atv_empresaenviamsg.png)
 
 ### Atividade - Motorista envia mensagem para a empresa
 Nesse diagrama ilustra-se a atividade de envio de mensagem para a empresa, na qual o motorista pode acessar o sistema, no campo
 correspondente, escrever e enviar uma mensagem de texto para o gestor da empresa.
 
-![diag_atividade_motoristaenviamsg](../Diagramas/Atividade/diag_atv_motoristaenviamsg.png)
+![diag_atividade_motoristaenviamsg.png](../Diagramas/Atividade/diag_atv_motoristaenviamsg.png)
 
 ### Atividade - Motorista seleciona Pontos de Descanso
 Nesse diagrama ilustra-se a atividade de seleção de pontos de descanso ao motorista. O sistema localiza a posição atual do motorista e lista os pontos de descanso mais próximos. Após isso, o motorista seleciona o ponto e o sistema verifica a sua disponibilidade. Caso esteja indisponivel, é exibida a mensagem de indisponibilidade.
