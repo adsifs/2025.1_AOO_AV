@@ -8,17 +8,18 @@
 
 [RepoAV]: https://github.com/adsifs/2025.1_AOO_AV.git
 
-# Nome do Sistema
+# SyncPlayers
 
 ## 💡 Descrição Geral
-Breve descrição do sistema apresentado no pitch. Indique o problema que resolve, público-alvo e principais funcionalidades.
+SyncPlayers é uma solução voltada para jogadores que enfrentam dificuldades em encontrar outros gamers com interesses semelhantes, horários compatíveis e preferência pelos mesmos jogos.
 
 ## 📌 Escopo Geral
-Liste de forma objetiva os principais módulos/funções definidos no início do projeto:
+Principais módulos/funções definidos para o projeto:
 
-- [ ] Funcionalidade 1
-- [ ] Funcionalidade 2
-- [ ] ...
+- [ ] Chat entre jogadores
+- [ ] Envio de convites para partidas
+- [ ] Sistema de busca por jogadores compatíveis
+- [ ] Sugestão de amigos conforme estilo de jogo e plataforma
 
 ## 📁 Estrutura dos Arquivos
 - [descricao/](./descricao/readme.md): Descrição da atividade e elementos básicos que serão avaliados.
@@ -28,8 +29,14 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 - [requisitos.md](./requisitos.md): Detalhe dos requisitos dos sistema.
 
 ## 🛠️ Tecnologias e Ferramentas
-Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implementação, bem como ferramentas de modelagem.
+- [LucidChart](https://www.lucidchart.com)
+- [StarUML](https://staruml.io/)
+- [PlantUML](https://plantuml.com/)
+- [Pladitor](https://plantumleditor.com)
 
 ## 👥 Integrantes
-- Nome 1 
-- Nome 2 
+- :octocat: [Stanly Almeida do Carmo](https://github.com/Stanly1BR/)
+- :octocat: [Jadson Alves do Nascimento](https://github.com/JadsonGitHub)
+- :octocat: [José Anderson de Almeida Silva](https://github.com/andersonsillva1/)
+- :octocat: [Rafael Chaves de Góis](https://github.com/RafaelRTXrv297)
+- :octocat: [Luiz Gustavo Gomes Leal Fagundes](https://github.com/LuizGomesL)
