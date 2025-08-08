@@ -108,4 +108,4 @@ Nesse diagrama ilustra-se os estados que uma mensagem pode apresentar.
 Neste diagrama ilustra-se várias das classes, com seus respectivos métodos, que compõem esse Sistema.
 
 
-![diagrama_classe](https://github.com/user-attachments/assets/418bb81d-e060-4722-818e-8989f884ce15)
+![diag_classes](../Diagramas/Classes/diag_classes)
