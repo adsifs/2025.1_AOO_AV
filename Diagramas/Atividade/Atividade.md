@@ -13,7 +13,7 @@
 ![Diagrama de Atividade - Alerta de Licenciamento](diag_atv_alertalicenciamento.png)
 ---
 ## Buscar Veículo
-![Diagrama de Atividade - Buscar Veículo](diag_atv_buscarveiculo.png)
+![Diagrama de Atividade - Buscar Veículo](diag_atv_buscaveiculo.png)
 ---
 ## Calcular Consumo de Combustível
 ![Diagrama de Atividade - Calcular Consumo de Combustível](diag_atv_calculacombustivel.png)
