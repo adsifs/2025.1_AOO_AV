@@ -20,6 +20,7 @@ Liste de forma objetiva os principais módulos/funções definidos no início do
 - [Estado](./Diagramas/Estado/Estado.md): Diagramas de Estado
 - [Atividade](./Diagramas/Atividade/Atividade.md): Diagramas de Atividade
 - [autoavaliacao.md](./descricao/autoavaliacao.md): Reflexão individual ou do grupo sobre o projeto.
+- [autovaliacao_av2.md](./descricao/imagens/autoavaliacao_av2.md): Reflexões individuais e do grupo sobre o projeto.
 
 
 ## 🛠️ Tecnologias e Ferramentas
