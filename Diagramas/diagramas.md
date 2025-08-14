@@ -91,7 +91,7 @@ Nesse diagrama ilustra-se os estados que uma viagem pode apresentar.
 ### Estados - Carga
 Nesse diagrama ilustra-se os estados que uma carga pode apresentar.
 
-![diag_estado_carga](https://github.com/user-attachments/assets/35a1c871-6199-400b-b415-09ca54c2c0e3)
+![diag_estado_carga.png](https://github.com/lemacx/SysLOG-AOO/blob/1b2a9a83e60ef9987fa609d2451b4aa367181877/Diagramas/Estado/diag_estado_carga.png)
 
 ### Estados - Manutenção
 Nesse diagrama ilustra-se os estados que a manutenção de um veiculo pode apresentar.
