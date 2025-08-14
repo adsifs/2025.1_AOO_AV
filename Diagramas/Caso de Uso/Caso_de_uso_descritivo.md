@@ -36,7 +36,7 @@
 
 ## Cadastro de Motorista
 
-**Atores Principais**: Empresa (Administrador)
+**Ator Principal**: Empresa (Administrador)
 **Descrição**: Permite à empresa cadastrar novos motoristas no sistema
 
 **Pré-condições**:
@@ -71,7 +71,7 @@
 
 ## Cadastro de Carga
 
-**Atores Principais**: Empresa (Administrador)
+**Ator Principal**: Empresa (Administrador)
 **Descrição**: Permite à empresa cadastrar cargas para transporte
 
 **Pré-condições**:
@@ -106,7 +106,7 @@
 
 ## Cadastro de Frota
 
-**Atores Principais**: Empresa (Administrador)
+**Ator Principal**: Empresa (Administrador)
 **Descrição**: Permite à empresa cadastrar novas frotas de veículos
 
 **Pré-condições**:
@@ -175,7 +175,7 @@
 
 ## Busca
 
-**Atores Principais**: Empresa
+**Ator Principal**: Empresa
 **Descrição**: Permite à empresa realizar uma busca por veículo, motorista ou carga
 
 **Pré-condições**:
@@ -242,7 +242,7 @@
 
 ## Multas
 
-**Atores Principais**: Empresa
+**Ator Principal**: Empresa
 **Descrição**: Permite à empresa ver as multas dos veículos
 
 **Pré-condições**:
@@ -276,7 +276,7 @@
 
 ## Licenciamento
 
-**Atores Principais**: Empresa
+**Ator Principal**: Empresa
 **Descrição**: A empresa acompanha os licenciamentos dos veículos
 
 **Pré-condições**:
@@ -310,7 +310,7 @@
 
 ## Limite de Tempo
 
-**Atores Principais**: Motorista
+**Ator Principal**: Motorista
 **Descrição**: Notifica o motorista sobre o tempo limite de serviço de descanso para a pausa de 30 min e o descanso de 24H
 
 **Pré-condições**:
@@ -342,7 +342,7 @@
 
 ## Pontos de Descanso
 
-**Atores Principais**: Motorista
+**Ator Principal**: Motorista
 **Descrição**: Notifica o motorista quando existirem pontos de descanso próximos
 
 **Pré-condições**:
@@ -375,7 +375,7 @@
 
 ## Monitorar Km
 
-**Atores Principais**: Motorista
+**Ator Principal**: Motorista
 **Descrição**: Permite ao motorista ver quantos quilômetros foram percorridos do ponto de origem até o destino, quanto falta para chegar e monitorar a velocidade atual
 
 **Pré-condições**:
@@ -410,7 +410,7 @@
 
 ## Média de Combustível
 
-**Atores Principais**: Empresa
+**Ator Principal**: Empresa
 **Descrição**: Permite à empresa ter uma média de Km/L que o veículo irá fazer para estimar o quanto vai ser gasto de combustível, além de manter um histórico de consumo
 
 **Pré-condições**:
