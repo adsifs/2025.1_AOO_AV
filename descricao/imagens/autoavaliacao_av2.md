@@ -7,20 +7,17 @@
 ## 🗂️ Organização do Grupo
 **1. Como o grupo organizou as atividades? Houve divisão de tarefas?**
 
-_Exemplo de resposta: Cada membro ficou responsável por um tipo de diagrama, com revisões cruzadas ao final._
+A equipe reuniu-se e acordou que teria um melhor fluxo de trabalho se as demandas fossem divididas, então cada integrante ficou responsável por parte dos diagramas, mas sempre discutindo-os e sugerindo adequações quando necessário.
 
 ---
 
 ## Desempenho Individual 📈
 **2. O que você considera que mais contribuiu no projeto?**
-> Aqui cada usuário deverá realizar sua descrição e realizar o envio com o seu nome para ficar registrado no github
 
-- Nome 1: 
+- Leticia Maciel: As minhas maiores contribuições nessa segunda etapa do projeto foram as adequações dos diagramas de atividade e de classes.  
 - Nome 2: 
 - Nome 3: 
 - Nome 4: 
-
-
 
 ---
 
@@ -39,10 +36,10 @@ _Justifique brevemente sua resposta:_
 
 ## 📚 Aprendizados
 **4. Qual o principal aprendizado técnico que você tirou deste trabalho?**  
-...
+A utilização da linguagem UML e a ferramenta PlantUML. Além disso, uma maior imersão em Git e Github.
 
 **5. E pessoal (relacionado a trabalho em grupo, organização, etc)?**  
-...
+Uma oportunidade de praticar a comunicação, parceria, resiliência e gestão de tempo.
 
 ---
 
@@ -50,15 +47,16 @@ _Justifique brevemente sua resposta:_
 **6. Como você avalia a qualidade do trabalho entregue?**
 
 - [ ] Excelente
-- [ ] Bom
+- [x] Bom
 - [ ] Regular
 - [ ] Abaixo do esperado
 
 _Justifique:_  
-...
+A equipe conseguiu entregar todos os componentes solicitados, porém com algumas ressalvas técnicas em algumas partes, por isso não atingiu total excelência.
 
 ---
 
 ## ✍️ Sugestões para o professor
 **7. Alguma sugestão para melhorar este tipo de atividade ou avaliação no futuro?**  
+
 ...
