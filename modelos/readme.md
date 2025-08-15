@@ -414,3 +414,23 @@ Usuario "1" --> "1..*" Status
 | [Gestão de Produtos](./DiagramasDeComponentes/ComponenteDeGestaoDeProdutos.md)                  | [Imagem de Gestão de Produtos](./DiagramasDeComponentes/ComponenteDeGestaoDeProdutos.png)                  |
 | [Processamento de Devoluções](./DiagramasDeComponentes/ComponenteDeProcessamentoDeDevolucao.md) | [Imagem de Processamento de Devoluções](./DiagramasDeComponentes/ComponenteDeProcessamentoDeDevolucao.png) |
 | [Mediação de Disputas](./DiagramasDeComponentes/ComponenteMediacaoDeDisputas.md)                | [Imagem de Mediação de Disputas](./DiagramasDeComponentes/ComponenteMediacaoDeDisputas.png)                |
+
+## Diagramas de Arquitetura
+
+| Nome                                                                  | Imagem                                                                                 |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [Arquitetura Geral (C4 Contexto e Microsserviços)](./Arquitetura/ArquiteturaGeral.md) | [Imagem Arquitetura Geral](./Arquitetura/ArquiteturaGeral.png)                         |
+
+## Diagramas de Sequência
+
+| Nome                                                                                              | Imagem                                                                                                         |
+| ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [Finalização de Compra](./DiagramasDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.md)        | [Imagem Finalização de Compra](./DiagramasDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.png)             |
+| [Adicionar Produto (Vendedor)](./DiagramasDeSequencia/DiagramaDeSequencia-AdicionarProduto.md)    | [Imagem Adicionar Produto](./DiagramasDeSequencia/DiagramaDeSequencia-AdicionarProduto.png)                     |
+| [Gerenciamento de Pedidos (Cliente)](./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.png) |
+| [Login e Autenticação](./DiagramasDeSequencia/DiagramaDeSequencia-LoginAutenticacao.md)           | (./DiagramasDeSequencia/DiagramaDeSequencia-LoginAutenticacao.png)                 |
+| [Gerenciamento de Produtos (Vendedor)](./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.png) |
+| [Moderação de Produto (Administrador)](./DiagramasDeSequencia/DiagramaDeSequencia-ModeracaoProdutoAdministrador.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-ModeracaoProdutoAdministrador.png)       |
+| [Notificação de Pedidos](./DiagramasDeSequencia/DiagramaDeSequencia-NotificacaoPedidos.md)        | [Imagem Notificação de Pedidos](./DiagramasDeSequencia/DiagramaDeSequencia-NotificacaoPedidos.png)              |
+| [Relatórios de Vendas](./DiagramasDeSequencia/DiagramaDeSequencia-RelatoriosVendas.md)            | [Imagem Relatórios de Vendas](./DiagramasDeSequencia/DiagramaDeSequencia-RelatoriosVendas.png)                  |
+| [Gestão de Usuários (Administrador)](./DiagramasDeSequencia/DiagramaDeSequencia-GestaoUsuariosAdministrador.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-GestaoUsuariosAdministrador.png)        |
