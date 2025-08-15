@@ -425,7 +425,7 @@ Usuario "1" --> "1..*" Status
 
 | Nome                                   | Imagem                                   |
 | -------------------------------------- | ---------------------------------------- |
-| [Adicionar Produto (Vendedor)](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-AdicionarProdutoVendedor.md) | [Imagem Adicionar Produto (Vendedor)](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-AdicionarProdutoVendedor.png) |
+| [Adicionar Produto (Vendedor)](./DiagramaDeSequencia/DiagramaDeSequencia-AdicionarProdutoVendedor.md) | [Imagem Adicionar Produto (Vendedor)](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-AdicionarProdutoVendedor.png) |
 | [Finalização de Compra](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.md) | [Imagem Finalização de Compra](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.png) |
 | [Gerenciamento de Pedidos (Cliente)](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.md) | [Imagem Gerenciamento de Pedidos (Cliente)](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.png) |
 | [Gerenciamento de Produtos (Vendedor)](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.md) | [Imagem Gerenciamento de Produtos (Vendedor)](.modelos/DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.png) |
