@@ -1,0 +1,13 @@
+@startuml
+actor Empresa
+actor Motorista
+participant Sistema
+
+== Login Empresa ==
+Empresa -> Sistema: realizarLogin(usuario, senha)
+Sistema --> Empresa: Autenticação OK
+
+== Login Motorista ==
+Motorista -> Sistema: realizarLogin(usuario, senha)
+Sistema --> Motorista: Autenticação OK
+@enduml
