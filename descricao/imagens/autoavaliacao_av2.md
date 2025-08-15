@@ -14,8 +14,9 @@ A equipe reuniu-se e acordou que teria um melhor fluxo de trabalho se as demanda
 ## Desempenho Individual 📈
 **2. O que você considera que mais contribuiu no projeto?**
 
+
 - Leticia Maciel: As minhas maiores contribuições nessa segunda etapa do projeto foram as adequações dos diagramas de atividade, estado e classes.  
-- Nome 2: 
+- Luiz Fernando: Minhas contribuições foram ajustes no diagrama de caso de uso e no descritivo. 
 - Nome 3: 
 - Nome 4: 
 
