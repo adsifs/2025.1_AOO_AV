@@ -1,15 +1,14 @@
 # Avaliação Prática AOO
 
-## [Clique aqui](./descricao/AV1.md)  para visualizar o conteúdo da AV1.
+## [Clique aqui](./descricao/AV1.md) para visualizar o conteúdo da AV1.
 
-## [Clique aqui](./descricao/AV2.md)  para visualizar o conteúdo da AV2.
+## [Clique aqui](./descricao/AV2.md) para visualizar o conteúdo da AV2.
 
 ---
 
 [RepoAV]: https://github.com/adsifs/2025.1_AOO_AV.git
 
 # Nome do Sistema
-
 
 ## 💡 Descrição Geral
 
@@ -98,8 +97,9 @@ Liste aqui (se aplicável) as linguagens ou frameworks pensados para a implement
 
 -React(FrontEnd)
 -Java(BackEnd)
--PostgreSQL(Database)
+-SQL Server(Database)
 
 ## 👥 Integrantes
 
 - Anderson Da Silva Barreto
+- Dennis Souto Oliveira Fernandes

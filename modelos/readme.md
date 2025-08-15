@@ -311,6 +311,12 @@ end note
 | ------------------------------------------------------------------- |
 | [DiagramaDeClasses](./DiagramaDeClasses/DiagramaDeClassesNexus.png) |
 
+### Diagrama de Classes Reajustado
+
+| Imagem                                                                             |
+| ---------------------------------------------------------------------------------- |
+| [DiagramaDeClassesReajustado](./DiagramaDeClasses/DiagramaDeClassesReajustado.png) |
+
 ### Módulo de Usuário
 
 ```plantuml
@@ -399,10 +405,12 @@ Usuario "1" --> "1..*" Status
 
 ## Diagrama de Componentes
 
-| Nome                                                           | Finalidade / Obs             | Imagem                                                                    |
-| -------------------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------- |
-| [Pedido](./DiagramasDeEstado/DiagramaDeEstado-Pedido.md)       | Ciclo de vida dos Pedidos    | [Imagem de Pedido](./DiagramasDeEstado/DiagramaDeEstado-Pedido.png)       |
-| [Disputa](./DiagramasDeEstado/DiagramaDeEstado-Disputa.md)     | Ciclo de vida das Disputas   | [Imagem de Disputa](./DiagramasDeEstado/DiagramaDeEstado-Disputa.png)     |
-| [Produto](./DiagramasDeEstado/DiagramaDeEstado-Produto.md)     | Ciclo de vida dos Produtos   | [Imagem de Produto](./DiagramasDeEstado/DiagramaDeEstado-Produto.png)     |
-| [Pagamento](./DiagramasDeEstado/DiagramaDeEstado-Pagamento.md) | Ciclo de vida dos Pagamentos | [Imagem de Pagamento](./DiagramasDeEstado/DiagramaDeEstado-Pagamento.png) |
-| [Vendedor](./DiagramasDeEstado/DiagramaDeEstado-Vendedor.md)   | Ciclo de vida dos Vendedores | [Imagem de Vendedor](./DiagramasDeEstado/DiagramaDeEstado-Vendedor.png)   |
+| Nome                                                                                            | Imagem                                                                                                     |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [Cadastro e Autenticação](./DiagramasDeComponentes/ComponenteDeAutenticacaoECadastro.md)        | [Imagem de Cadastro e Autenticação](./DiagramasDeComponentes/ComponenteDeAutenticacaoECadastro.png)        |
+| [Avaliação de Produto](./DiagramasDeComponentes/ComponenteDeAvaliacaoDeProduto.md)              | [Imagem de Avaliação de Produto](./DiagramasDeComponentes/ComponenteDeAvaliacaoDeProduto.png)              |
+| [Compras e Pagamento](./DiagramasDeComponentes/ComponenteDeComprasEPagamentos.png)              | [Imagem de Compras e Pagamento](./DiagramasDeComponentes/ComponenteDeComprasEPagamentos.png)               |
+| [Disputas e Devoluções](./DiagramasDeComponentes/ComponenteDeDisputasEDevolucoes.md)            | [Imagem de Disputas e Devoluções](./DiagramasDeComponentes/ComponenteDeDisputasEDevolucoes.png)            |
+| [Gestão de Produtos](./DiagramasDeComponentes/ComponenteDeGestaoDeProdutos.md)                  | [Imagem de Gestão de Produtos](./DiagramasDeComponentes/ComponenteDeGestaoDeProdutos.png)                  |
+| [Processamento de Devoluções](./DiagramasDeComponentes/ComponenteDeProcessamentoDeDevolucao.md) | [Imagem de Processamento de Devoluções](./DiagramasDeComponentes/ComponenteDeProcessamentoDeDevolucao.png) |
+| [Mediação de Disputas](./DiagramasDeComponentes/ComponenteMediacaoDeDisputas.md)                | [Imagem de Mediação de Disputas](./DiagramasDeComponentes/ComponenteMediacaoDeDisputas.png)                |
