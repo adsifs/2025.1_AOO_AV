@@ -415,36 +415,23 @@ Usuario "1" --> "1..*" Status
 | [Processamento de Devoluções](./DiagramasDeComponentes/ComponenteDeProcessamentoDeDevolucao.md) | [Imagem de Processamento de Devoluções](./DiagramasDeComponentes/ComponenteDeProcessamentoDeDevolucao.png) |
 | [Mediação de Disputas](./DiagramasDeComponentes/ComponenteMediacaoDeDisputas.md)                | [Imagem de Mediação de Disputas](./DiagramasDeComponentes/ComponenteMediacaoDeDisputas.png)                |
 
-## Arquitetura
+## Diagramas de Arquitetura
 
-- [Diagrama de Arquitetura](modelos/DiagramaDeArquitetura.md)  
-  ![Diagrama de Arquitetura](modelos/DiagramaDeArquitetura.png)
+| Nome                     | Imagem                               |
+| ------------------------ | ------------------------------------ |
+| [Diagrama de Arquitetura](./DiagramaDeArquitetura.md) | [Imagem Diagrama de Arquitetura](./DiagramaDeArquitetura.png) |
 
 ## Diagramas de Sequência
 
-- [Adicionar Produto Vendedor](modelos/DiagramaDeSequencia-AdicionarProdutoVendedor.md)  
-  ![Adicionar Produto Vendedor](modelos/DiagramaDeSequencia-AdicionarProdutoVendedor.png)
+| Nome                                   | Imagem                                   |
+| -------------------------------------- | ---------------------------------------- |
+| [Adicionar Produto (Vendedor)](./DiagramaDeSequencia-AdicionarProdutoVendedor.md) | [Imagem Adicionar Produto (Vendedor)](./DiagramaDeSequencia-AdicionarProdutoVendedor.png) |
+| [Finalização de Compra](./DiagramaDeSequencia-FinalizacaoDeCompra.md) | [Imagem Finalização de Compra](./DiagramaDeSequencia-FinalizacaoDeCompra.png) |
+| [Gerenciamento de Pedidos (Cliente)](./DiagramaDeSequencia-GerenciamentoPedidosCliente.md) | [Imagem Gerenciamento de Pedidos (Cliente)](./DiagramaDeSequencia-GerenciamentoPedidosCliente.png) |
+| [Gerenciamento de Produtos (Vendedor)](./DiagramaDeSequencia-GerenciamentoProdutosVendedor.md) | [Imagem Gerenciamento de Produtos (Vendedor)](./DiagramaDeSequencia-GerenciamentoProdutosVendedor.png) |
+| [Gestão de Usuários (Administrador)](./DiagramaDeSequencia-GestaoDeUsuariosAdministrador.md) | [Imagem Gestão de Usuários (Administrador)](./DiagramaDeSequencia-GestaoDeUsuariosAdministrador.png) |
+| [Login e Autenticação](./DiagramaDeSequencia-LoginAutenticacao.md) | [Imagem Login e Autenticação](./DiagramaDeSequencia-LoginAutenticacao.png) |
+| [Moderação de Produto (Administrador)](./DiagramaDeSequencia-ModeracaoProdutoAdministrador.md) | [Imagem Moderação de Produto (Administrador)](./DiagramaDeSequencia-ModeracaoProdutoAdministrador.png) |
+| [Notificação de Pedidos](./DiagramaDeSequencia-NotificacaoPedidos.md) | [Imagem Notificação de Pedidos](./DiagramaDeSequencia-NotificacaoPedidos.png) |
+| [Relatórios de Vendas](./DiagramaDeSequencia-RelatoriosVendas.md) | [Imagem Relatorios de Vendas](./DiagramaDeSequencia-RelatoriosVendas.png) |
 
-- [Finalização de Compra](modelos/DiagramaDeSequência-FinalizacaoDeCompra.md)  
-  ![Finalização de Compra](modelos/DiagramaDeSequência-FinalizacaoDeCompra.png)
-
-- [Gerenciamento de Pedidos Cliente](modelos/DiagramaDeSequência-GerenciamentoPedidosCliente.md)  
-  ![Gerenciamento de Pedidos Cliente](modelos/DiagramaDeSequência-GerenciamentoPedidosCliente.png)
-
-- [Gerenciamento de Produtos Vendedor](modelos/DiagramaDeSequência-GerenciamentoProdutosVendedor.md)  
-  ![Gerenciamento de Produtos Vendedor](modelos/DiagramaDeSequência-GerenciamentoProdutosVendedor.png)
-
-- [Gestão de Usuários Administrador](modelos/DiagramaDeSequência-GestãoDeUsuáriosAdministrador.md)  
-  ![Gestão de Usuários Administrador](modelos/DiagramaDeSequência-GestãoDeUsuáriosAdministrador.png)
-
-- [Login e Autenticação](modelos/DiagramaDeSequência-LoginAutenticação.md)  
-  ![Login e Autenticação](modelos/DiagramaDeSequência-LoginAutenticação.png)
-
-- [Moderação de Produto Administrador](modelos/DiagramaDeSequência-ModeraçãoProdutoAdministrador.md)  
-  ![Moderação de Produto Administrador](modelos/DiagramaDeSequência-ModeraçãoProdutoAdministrador.png)
-
-- [Notificação de Pedidos](modelos/DiagramaDeSequência-NotificaçãoPedidos.md)  
-  ![Notificação de Pedidos](modelos/DiagramaDeSequência-NotificaçãoPedidos.png)
-
-- [Relatórios de Vendas](modelos/DiagramaDeSequência-RelatóriosVendas.md)  
-  ![Relatórios de Vendas](modelos/DiagramaDeSequência-RelatóriosVendas.png)
