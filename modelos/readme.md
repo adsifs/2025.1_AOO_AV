@@ -294,7 +294,7 @@ Disputa "0.._" -- "0..1" Administrador : mediada por
 
 ' Notas Explicativas
 note right of Vendedor
-A herança **Vendedor <|-- Cliente** significa
+A herança **Cliente <|-- Vendedor** significa
 que todo Vendedor "é um" Cliente,
 podendo também realizar compras.
 end note
