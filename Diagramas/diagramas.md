@@ -115,3 +115,23 @@ Neste diagrama estão expostos os componentes essenciais para o funcionamento do
 
 
 ![DiagramaDeComponentesSyslog.drawio.png](https://github.com/user-attachments/assets/12ef6a5d-f2a9-47ed-bcc4-8a3732e49430)
+
+
+
+
+
+
+
+
+
+
+
+### 🔹 Diagrama de sequência 
+Neste diagrama esta sendo exibido os processos de sequência. 
+![IMG-20250815-WA0026.jpg](https://github.com/user-attachments/assets/d9ceac15-f3fc-41b3-bce5-b8f1523f8a46
+![IMG-20250815-WA0027.jpg](https://github.com/user-attachments/assets/8c678e36-6e3c-499a-8c37-233efe598379)
+![IMG-20250815-WA0028.jpg](https://github.com/user-attachments/assets/06d65cad-b5e5-41e5-81b1-67e7ce0ec1f2)
+![IMG-20250815-WA0029.jpg](https://github.com/user-attachments/assets/473ab1e1-5ea4-45cd-bdb1-6b86821522c1)
+![IMG-20250815-WA0031.jpg](https://github.com/user-attachments/assets/9d6c0fee-31a1-48c4-ad9b-b0930438e301)
+
+
