@@ -17,7 +17,7 @@ A equipe reuniu-se e acordou que teria um melhor fluxo de trabalho se as demanda
 
 - Leticia Maciel: As minhas maiores contribuições nessa segunda etapa do projeto foram as adequações dos diagramas de atividade, estado e classes.  
 - Luiz Fernando: Minhas contribuições foram ajustes no diagrama de caso de uso e no descritivo. 
-- Nome 3: 
+- Kayo Gabryel: Minhas contribuições nessa etapa foi com a criação do diagrama de componentes e ajustes no diagrama de arquitetura.
 - Nome 4: 
 
 ---

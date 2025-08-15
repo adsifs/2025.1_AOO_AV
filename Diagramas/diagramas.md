@@ -109,3 +109,9 @@ Neste diagrama ilustra-se várias das classes, com seus respectivos métodos, qu
 
 
 ![diag_classes](../Diagramas/Classes/diag_classes)
+
+### 🔹 Diagrama de Componentes
+Neste diagrama estão expostos os componentes essenciais para o funcionamento do syslog e suas relações dentro do sistema.
+
+
+![DiagramaDeComponentesSyslog.drawio.png](https://github.com/user-attachments/assets/12ef6a5d-f2a9-47ed-bcc4-8a3732e49430)
