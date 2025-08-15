@@ -419,19 +419,19 @@ Usuario "1" --> "1..*" Status
 
 | Nome                     | Imagem                               |
 | ------------------------ | ------------------------------------ |
-| [Diagrama de Arquitetura](./DiagramaDeArquitetura.md) | [Imagem Diagrama de Arquitetura](./DiagramaDeArquitetura.png) |
+| [Diagrama de Arquitetura](./DiagramaDeArquitetura/DiagramaDeArquitetura.md) | [Imagem Diagrama de Arquitetura](./DiagramaDeArquitetura/DiagramaDeArquitetura.png) |
 
 ## Diagramas de Sequência
 
 | Nome                                   | Imagem                                   |
 | -------------------------------------- | ---------------------------------------- |
-| [Adicionar Produto (Vendedor)](./DiagramaDeSequencia-AdicionarProdutoVendedor.md) | [Imagem Adicionar Produto (Vendedor)](./DiagramaDeSequencia-AdicionarProdutoVendedor.png) |
-| [Finalização de Compra](./DiagramaDeSequencia-FinalizacaoDeCompra.md) | [Imagem Finalização de Compra](./DiagramaDeSequencia-FinalizacaoDeCompra.png) |
-| [Gerenciamento de Pedidos (Cliente)](./DiagramaDeSequencia-GerenciamentoPedidosCliente.md) | [Imagem Gerenciamento de Pedidos (Cliente)](./DiagramaDeSequencia-GerenciamentoPedidosCliente.png) |
-| [Gerenciamento de Produtos (Vendedor)](./DiagramaDeSequencia-GerenciamentoProdutosVendedor.md) | [Imagem Gerenciamento de Produtos (Vendedor)](./DiagramaDeSequencia-GerenciamentoProdutosVendedor.png) |
-| [Gestão de Usuários (Administrador)](./DiagramaDeSequencia-GestaoDeUsuariosAdministrador.md) | [Imagem Gestão de Usuários (Administrador)](./DiagramaDeSequencia-GestaoDeUsuariosAdministrador.png) |
-| [Login e Autenticação](./DiagramaDeSequencia-LoginAutenticacao.md) | [Imagem Login e Autenticação](./DiagramaDeSequencia-LoginAutenticacao.png) |
-| [Moderação de Produto (Administrador)](./DiagramaDeSequencia-ModeracaoProdutoAdministrador.md) | [Imagem Moderação de Produto (Administrador)](./DiagramaDeSequencia-ModeracaoProdutoAdministrador.png) |
+| [Adicionar Produto (Vendedor)](.DiagramaDeSequencia/DiagramaDeSequencia-AdicionarProdutoVendedor.md) | [Imagem Adicionar Produto (Vendedor)](.DiagramaDeSequencia/DiagramaDeSequencia-AdicionarProdutoVendedor.png) |
+| [Finalização de Compra](.DiagramaDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.md) | [Imagem Finalização de Compra](.DiagramaDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.png) |
+| [Gerenciamento de Pedidos (Cliente)](.DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.md) | [Imagem Gerenciamento de Pedidos (Cliente)](.DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.png) |
+| [Gerenciamento de Produtos (Vendedor)](.DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.md) | [Imagem Gerenciamento de Produtos (Vendedor)](.DiagramaDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.png) |
+| [Gestão de Usuários (Administrador)](.DiagramaDeSequencia/DiagramaDeSequencia-GestaoDeUsuariosAdministrador.md) | [Imagem Gestão de Usuários (Administrador)](.DiagramaDeSequencia/DiagramaDeSequencia-GestaoDeUsuariosAdministrador.png) |
+| [Login e Autenticação](.DiagramaDeSequencia/DiagramaDeSequencia-LoginAutenticacao.md) | [Imagem Login e Autenticação](.DiagramaDeSequencia/DiagramaDeSequencia-LoginAutenticacao.png) |
+| [Moderação de Produto (Administrador)](.DiagramaDeSequencia/DiagramaDeSequencia-ModeracaoProdutoAdministrador.md) | [Imagem Moderação de Produto (Administrador)](.DiagramaDeSequencia/DiagramaDeSequencia-ModeracaoProdutoAdministrador.png) |
 | [Notificação de Pedidos](./DiagramaDeSequencia-NotificacaoPedidos.md) | [Imagem Notificação de Pedidos](./DiagramaDeSequencia-NotificacaoPedidos.png) |
 | [Relatórios de Vendas](./DiagramaDeSequencia-RelatoriosVendas.md) | [Imagem Relatorios de Vendas](./DiagramaDeSequencia-RelatoriosVendas.png) |
 
