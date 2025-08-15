@@ -396,3 +396,13 @@ Usuario "1" --> "1..*" Status
 | [Produto](./DiagramasDeEstado/DiagramaDeEstado-Produto.md)     | Ciclo de vida dos Produtos   | [Imagem de Produto](./DiagramasDeEstado/DiagramaDeEstado-Produto.png)     |
 | [Pagamento](./DiagramasDeEstado/DiagramaDeEstado-Pagamento.md) | Ciclo de vida dos Pagamentos | [Imagem de Pagamento](./DiagramasDeEstado/DiagramaDeEstado-Pagamento.png) |
 | [Vendedor](./DiagramasDeEstado/DiagramaDeEstado-Vendedor.md)   | Ciclo de vida dos Vendedores | [Imagem de Vendedor](./DiagramasDeEstado/DiagramaDeEstado-Vendedor.png)   |
+
+## Diagrama de Componentes
+
+| Nome                                                           | Finalidade / Obs             | Imagem                                                                    |
+| -------------------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------- |
+| [Pedido](./DiagramasDeEstado/DiagramaDeEstado-Pedido.md)       | Ciclo de vida dos Pedidos    | [Imagem de Pedido](./DiagramasDeEstado/DiagramaDeEstado-Pedido.png)       |
+| [Disputa](./DiagramasDeEstado/DiagramaDeEstado-Disputa.md)     | Ciclo de vida das Disputas   | [Imagem de Disputa](./DiagramasDeEstado/DiagramaDeEstado-Disputa.png)     |
+| [Produto](./DiagramasDeEstado/DiagramaDeEstado-Produto.md)     | Ciclo de vida dos Produtos   | [Imagem de Produto](./DiagramasDeEstado/DiagramaDeEstado-Produto.png)     |
+| [Pagamento](./DiagramasDeEstado/DiagramaDeEstado-Pagamento.md) | Ciclo de vida dos Pagamentos | [Imagem de Pagamento](./DiagramasDeEstado/DiagramaDeEstado-Pagamento.png) |
+| [Vendedor](./DiagramasDeEstado/DiagramaDeEstado-Vendedor.md)   | Ciclo de vida dos Vendedores | [Imagem de Vendedor](./DiagramasDeEstado/DiagramaDeEstado-Vendedor.png)   |
