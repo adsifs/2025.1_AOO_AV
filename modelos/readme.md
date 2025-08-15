@@ -417,20 +417,20 @@ Usuario "1" --> "1..*" Status
 
 ## Diagramas de Arquitetura
 
-| Nome                                                                  | Imagem                                                                                 |
-| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| [Arquitetura Geral (C4 Contexto e Microsserviços)](./Arquitetura/ArquiteturaGeral.md) | [Imagem Arquitetura Geral](./Arquitetura/ArquiteturaGeral.png)                         |
+| Nome                       | Imagem                                                                 |
+| -------------------------- | ---------------------------------------------------------------------- |
+| [ArquiteturaGeral](./modelos/DiagramaDeArquitetura/ArquiteturaGeral.md) | ![ArquiteturaGeral](./modelos/DiagramaDeArquitetura/ArquiteturaGeral.png) |
 
 ## Diagramas de Sequência
 
-| Nome                                                                                              | Imagem                                                                                                         |
-| ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [Finalização de Compra](./DiagramasDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.md)        | [Imagem Finalização de Compra](./DiagramasDeSequencia/DiagramaDeSequencia-FinalizacaoDeCompra.png)             |
-| [Adicionar Produto (Vendedor)](./DiagramasDeSequencia/DiagramaDeSequencia-AdicionarProduto.md)    | [Imagem Adicionar Produto](./DiagramasDeSequencia/DiagramaDeSequencia-AdicionarProduto.png)                     |
-| [Gerenciamento de Pedidos (Cliente)](./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoPedidosCliente.png) |
-| [Login e Autenticação](./DiagramasDeSequencia/DiagramaDeSequencia-LoginAutenticacao.md)           | (./DiagramasDeSequencia/DiagramaDeSequencia-LoginAutenticacao.png)                 |
-| [Gerenciamento de Produtos (Vendedor)](./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-GerenciamentoProdutosVendedor.png) |
-| [Moderação de Produto (Administrador)](./DiagramasDeSequencia/DiagramaDeSequencia-ModeracaoProdutoAdministrador.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-ModeracaoProdutoAdministrador.png)       |
-| [Notificação de Pedidos](./DiagramasDeSequencia/DiagramaDeSequencia-NotificacaoPedidos.md)        | [Imagem Notificação de Pedidos](./DiagramasDeSequencia/DiagramaDeSequencia-NotificacaoPedidos.png)              |
-| [Relatórios de Vendas](./DiagramasDeSequencia/DiagramaDeSequencia-RelatoriosVendas.md)            | [Imagem Relatórios de Vendas](./DiagramasDeSequencia/DiagramaDeSequencia-RelatoriosVendas.png)                  |
-| [Gestão de Usuários (Administrador)](./DiagramasDeSequencia/DiagramaDeSequencia-GestaoUsuariosAdministrador.md) | (./DiagramasDeSequencia/DiagramaDeSequencia-GestaoUsuariosAdministrador.png)        |
+| Nome                                                                 | Imagem                                                                 |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [FinalizacaoDeCompra](./modelos/DiagramaDeSequencia/FinalizacaoDeCompra.md) | ![FinalizacaoDeCompra](./modelos/DiagramaDeSequencia/FinalizacaoDeCompra.png) |
+| [AdicionarProduto](./modelos/DiagramaDeSequencia/AdicionarProduto.md) | ![AdicionarProduto](./modelos/DiagramaDeSequencia/AdicionarProduto.png) |
+| [GerenciamentoPedidosCliente](./modelos/DiagramaDeSequencia/GerenciamentoPedidosCliente.md) | ![GerenciamentoPedidosCliente](./modelos/DiagramaDeSequencia/GerenciamentoPedidosCliente.png) |
+| [LoginAutenticacao](./modelos/DiagramaDeSequencia/LoginAutenticacao.md) | ![LoginAutenticacao](./modelos/DiagramaDeSequencia/LoginAutenticacao.png) |
+| [GerenciamentoProdutosVendedor](./modelos/DiagramaDeSequencia/GerenciamentoProdutosVendedor.md) | ![GerenciamentoProdutosVendedor](./modelos/DiagramaDeSequencia/GerenciamentoProdutosVendedor.png) |
+| [ModeracaoProdutoAdministrador](./modelos/DiagramaDeSequencia/ModeracaoProdutoAdministrador.md) | ![ModeracaoProdutoAdministrador](./modelos/DiagramaDeSequencia/ModeracaoProdutoAdministrador.png) |
+| [NotificacaoPedidos](./modelos/DiagramaDeSequencia/NotificacaoPedidos.md) | ![NotificacaoPedidos](./modelos/DiagramaDeSequencia/NotificacaoPedidos.png) |
+| [RelatoriosVendas](./modelos/DiagramaDeSequencia/RelatoriosVendas.md) | ![RelatoriosVendas](./modelos/DiagramaDeSequencia/RelatoriosVendas.png) |
+| [GestaoUsuariosAdministrador](./modelos/DiagramaDeSequencia/GestaoUsuariosAdministrador.md) | ![GestaoUsuariosAdministrador](./modelos/DiagramaDeSequencia/GestaoUsuariosAdministrador.png) |
